@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3{
+
+}
+button{
+    border: none;
+    background: none;
+}

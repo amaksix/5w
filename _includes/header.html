@@ -1,0 +1,42 @@
+<header>
+    {% if page.lang == "lv" %}
+    <a href="/lv/" class="home"><img src="../assets/images/Logo.png"></a>
+    {% else %}
+    <a href="/en/" class="home"><img src="../assets/images/Logo.png"></a>
+    {% endif %}
+    <nav>
+        {% if page.lang == "lv" %}
+            <a href="/lv/projects/" class="btn">Projekti</a>
+            <a href="/lv/about-us/" class="btn">Par Mums</a>
+            <a href="/lv/clients/" class="btn">Mūsu Klienti</a>
+            <a href="/lv/cases/" class="btn">Mūsu Gadījumi</a>
+            <a href="/lv/contact/" class="btn">Sazinieties ar Mums</a>
+        {% else %}
+            <a href="/en/projects/" class="btn">Projects</a>
+            <a href="/en/about-us/" class="btn">About Us</a>
+            <a href="/en/clients/" class="btn">Our Clients</a>
+            <a href="/en/cases/" class="btn">Our Cases</a>
+            <a href="/en/contact/" class="btn">Contact Us</a>
+        {% endif %}
+    </nav>
+    <div class="languages-container">
+        <div id="languages-dropdown" class="languages hidden">
+            <div class="languages-button-container">
+                <button id="english" class="languages-button" onclick="changeLanguage('en')">English</button>
+            </div>
+            <div class="languages-button-container">
+                <button id="latvian" class="languages-button" onclick="changeLanguage('lv')">Latviešu</button>
+            </div>
+        </div>
+        {% if page.lang == "lv" %}
+        <button id="languages-button" class="selected-language"><span id="selected-language-text">LV</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+        {% else %}
+        <button id="languages-button" class="selected-language"><span id="selected-language-text">EN</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+        {% endif %}
+    </div>
+    {% if page.lang == "lv" %}
+    <button class="LearnMore">Uzzināt Vairāk</button>
+    {% else %}
+    <button class="LearnMore">Learn More</button>
+    {% endif %}
+</header>
