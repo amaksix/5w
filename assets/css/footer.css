@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Medium.ttf") format("ttf");
+    font-weight: medium;
+    font-style: normal;
+}
+footer{
+    background-color: #0F0F10;
+    padding: 2.7vw;
+}
+.footer-logo{
+    margin-left: 41.8vw;
+    width: 11vw;
+    height: 4.8vw;
+    margin-bottom: 6.9vw;
+}
+.footer-heading{
+    color: #9B9DA0;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.1vw;
+}
+.footer-text{
+    color: #F0F0F2;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.25vw;
+}
+.footer-info-container{
+    display: grid;
+    grid-template-columns: auto auto max-content;
+    gap: 18vw;
+}
+.contact-info{
+    margin-right: 0;
+    margin-left: auto;
+}
+.social-media-container{
+    margin-right: 0;
+    margin-left: auto;
+}

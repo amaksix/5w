@@ -1,6 +1,6 @@
 ---
 layout: home
 title: 5W
-heading: Par Mūsu Kompāniju
+heading: 5W
 lang: lv
 ---

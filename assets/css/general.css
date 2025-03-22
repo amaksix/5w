@@ -11,11 +11,9 @@
     font-weight: bold;
     font-style: normal;
 }
-
+body {
+    margin: 0;
+}
 h3{
 
-}
-button{
-    border: none;
-    background: none;
 }

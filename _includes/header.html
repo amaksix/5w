@@ -19,24 +19,26 @@
             <a href="/en/contact/" class="btn">Contact Us</a>
         {% endif %}
     </nav>
-    <div class="languages-container">
-        <div id="languages-dropdown" class="languages hidden">
-            <div class="languages-button-container">
-                <button id="english" class="languages-button" onclick="changeLanguage('en')">English</button>
+    <div class="right-part-header">
+        <div class="languages-container">
+            <div id="languages-dropdown" class="languages hidden">
+                <div class="languages-button-container">
+                    <a id="english" hreflang="en" class="languages-button"  href="/en{{ page.url | remove_first:'/en' | remove_first:'/lv' }}">English</a>
+                </div>
+                <div class="languages-button-container">
+                    <a id="latvian" hreflang="lv" class="languages-button" href="/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' }}" >Latviešu</a>
+                </div>
             </div>
-            <div class="languages-button-container">
-                <button id="latvian" class="languages-button" onclick="changeLanguage('lv')">Latviešu</button>
-            </div>
+            {% if page.lang == "lv" %}
+            <button id="languages-button" class="selected-language"><span class="selected-language-text" id="selected-language-text">Latviešu</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+            {% else %}
+            <button id="languages-button" class="selected-language"><span class="selected-language-text" id="selected-language-text">English</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+            {% endif %}
         </div>
         {% if page.lang == "lv" %}
-        <button id="languages-button" class="selected-language"><span id="selected-language-text">LV</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+        <button class="LearnMore">Uzzināt Vairāk</button>
         {% else %}
-        <button id="languages-button" class="selected-language"><span id="selected-language-text">EN</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+        <button class="LearnMore">Learn More</button>
         {% endif %}
     </div>
-    {% if page.lang == "lv" %}
-    <button class="LearnMore">Uzzināt Vairāk</button>
-    {% else %}
-    <button class="LearnMore">Learn More</button>
-    {% endif %}
 </header>
