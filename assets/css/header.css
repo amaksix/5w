@@ -19,11 +19,11 @@
 }
 header {
     background-color: #F0F0F2;
-    padding-left: 2.7vw;
-    padding-top: 3.125vw;
+    padding-left: 1.35vw;
+    padding-top: 1.5625vw;
     text-align: center;
     display: flex;
-    height:7vw;
+    height:4vw;
 }
 a > img{
     width:7.2vw;
@@ -45,7 +45,7 @@ nav {
     transition: background 0.3s;
     font-family: "Jost", Arial, sans-serif;
     font-weight: normal;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin: auto;
 }
 
@@ -59,8 +59,8 @@ nav {
     gap:0.7vw;
 }
 .languages-container{
-    height: 3.5vw;
-    width: 12vw;
+    height: 2vw;
+    width: 9vw;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -76,7 +76,7 @@ nav {
 }
 .languages{
     position: absolute;
-    width: 12vw;
+    width: 9vw;
     background-color: #D2D4D9;
     border-radius: 1.2vw;
     padding-top: 1.2vw;
@@ -92,7 +92,7 @@ nav {
     color: #0F0F10;
     font-family: "Jost", Arial, sans-serif;
     font-weight: normal;
-    font-size: 1.1vw;
+    font-size: 1vw;
     text-align: left;
     margin-left: 0.6vw;
     letter-spacing: 2%;
@@ -109,10 +109,10 @@ nav {
 .selected-language{
     font-family: "Jost", Arial, sans-serif;
     font-weight: normal;
-    font-size: 1.1vw;
+    font-size: 1vw;
     color: #0F0F10;
     display: inline-grid;
-    grid-template-columns: 6.9vw 4.3vw;
+    grid-template-columns: 5.5vw 2.3vw;
     gap:0.7vw;
     text-align: right;
     padding-left: 0;
@@ -121,8 +121,8 @@ nav {
     border-width: 0.13vw;
     border-radius: 1vw;
     border-color: #D2D4D9 ;
-    height: 3.5vw;
-    width: 12vw;
+    height: 3vw;
+    width: 9vw;
     background: none;
 }
 .selected-language-text{
@@ -132,11 +132,11 @@ nav {
 .LearnMore{
     background-color: #779FEE;
     border-radius: 0.9vw;
-    width: 13.1vw;
-    height:3.4vw;
+    width: 9vw;
+    height:3vw;
     font-family: "Jost","Arial", sans-serif;
     font-weight: medium;
     color: #0F0F10;
-    font-size: 1.1vw;
+    font-size: 1vw;
     border: none;
 }
