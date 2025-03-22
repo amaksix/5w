@@ -23,10 +23,10 @@
         <div class="languages-container">
             <div id="languages-dropdown" class="languages hidden">
                 <div class="languages-button-container">
-                    <a id="english" hreflang="en" class="languages-button"  href="/en{{ page.url }}">English</a>
+                    <a id="english" hreflang="en" class="languages-button"  href="/5w/en{{ page.url | remove_first:'/en' | remove_first:'/lv' }}">English</a>
                 </div>
                 <div class="languages-button-container">
-                    <a id="latvian" hreflang="lv" class="languages-button" href="/lv{{ page.url }}" >Latviešu</a>
+                    <a id="latvian" hreflang="lv" class="languages-button" href="/5w/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' }}" >Latviešu</a>
                 </div>
             </div>
             {% if page.lang == "lv" %}
