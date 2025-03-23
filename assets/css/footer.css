@@ -20,6 +20,7 @@
 footer{
     background-color: #0F0F10;
     padding: 1.35vw;
+    padding-bottom: 0;
 }
 .footer-logo{
     margin-left: 44.65vw;
@@ -39,7 +40,7 @@ footer{
     font-family: "Jost", Arial, sans-serif;
     font-weight: normal;
     font-size: 1.15vw;
-    margin-bottom: 0.52vw;
+    margin-bottom: 0.75vw;
 }
 .footer-info-container{
     display: grid;
@@ -53,4 +54,8 @@ footer{
 .social-media-container{
     margin-right: 0;
     margin-left: auto;
+}
+.footer-image{
+    width: 97.3vw;
+    margin-top: -1.3vw;
 }

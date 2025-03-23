@@ -6,27 +6,27 @@
     {% endif %}
     <nav>
         {% if page.lang == "lv" %}
-            <a href="/lv/projects/" class="btn">Projekti</a>
-            <a href="/lv/about-us/" class="btn">Par Mums</a>
-            <a href="/lv/clients/" class="btn">Mūsu Klienti</a>
-            <a href="/lv/cases/" class="btn">Mūsu Gadījumi</a>
-            <a href="/lv/contact/" class="btn">Sazinieties ar Mums</a>
+            <a href="/lv/projects/" class="btn"><span class="label-up">Projekti</span><span class="label-up">Projekti</span></a>
+            <a href="/lv/about-us/" class="btn"><span class="label-up">Par Mums</span><span class="label-up">Par Mums</span></a>
+            <a href="/lv/clients/" class="btn"><span class="label-up">Mūsu Klienti</span><span class="label-up">Mūsu Klienti</span></a>
+            <a href="/lv/cases/" class="btn"><span class="label-up">Mūsu Gadījumi</span><span class="label-up">Mūsu Gadījumi</span></a>
+            <a href="/lv/contact/" class="btn"><span class="label-up">Sazinieties ar Mums</span><span class="label-up">Sazinieties ar Mums</span></a>
         {% else %}
-            <a href="/en/projects/" class="btn">Projects</a>
-            <a href="/en/about-us/" class="btn">About Us</a>
-            <a href="/en/clients/" class="btn">Our Clients</a>
-            <a href="/en/cases/" class="btn">Our Cases</a>
-            <a href="/en/contact/" class="btn">Contact Us</a>
+            <a href="/en/projects/" class="btn"><span class="label-up">Projects</span><span class="label-up">Projects</span></a>
+            <a href="/en/about-us/" class="btn"><span class="label-up">About Us</span><span class="label-up">About Us</span></a>
+            <a href="/en/clients/" class="btn"><span class="label-up">Our Clients</span><span class="label-up">Our Clients</span></a>
+            <a href="/en/cases/" class="btn"><span class="label-up">Our Cases</span><span class="label-up">Our Cases</span></a>
+            <a href="/en/contact/" class="btn"><span class="label-up">Contact Us</span><span class="label-up">Contact Us</span></a>
         {% endif %}
     </nav>
     <div class="right-part-header">
         <div class="languages-container">
             <div id="languages-dropdown" class="languages hidden">
                 <div class="languages-button-container">
-                    <a id="english" hreflang="en" class="languages-button"  href="/5w/en{{ page.url | remove_first:'/en' | remove_first:'/lv' }}">English</a>
+                    <a id="english" hreflang="en" class="languages-button"  href="/en{{ page.url | remove_first:'/en' | remove_first:'/lv' }}">English</a>
                 </div>
                 <div class="languages-button-container">
-                    <a id="latvian" hreflang="lv" class="languages-button" href="/5w/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' }}" >Latviešu</a>
+                    <a id="latvian" hreflang="lv" class="languages-button" href="/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' }}" >Latviešu</a>
                 </div>
             </div>
             {% if page.lang == "lv" %}

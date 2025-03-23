@@ -48,10 +48,24 @@ nav {
     font-weight: normal;
     font-size: 1vw;
     margin: auto;
+    text-wrap: nowrap;
+    display:inline-block;
+    overflow:hidden;
+    position:relative;
+    height: 1.14vw;
 }
-
-.btn:hover {
-}
+.label-up {
+    display:block;
+    height:100%;
+    position:relative;
+    top:0%;
+    transition:0.6s;
+    margin-bottom: 2vw;
+  }
+  
+  .btn:hover .label-up {
+    top:-270%;
+  }
 .right-part-header{
     margin-left: auto; 
     display: grid;
