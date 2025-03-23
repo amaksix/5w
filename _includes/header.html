@@ -30,9 +30,9 @@
                 </div>
             </div>
             {% if page.lang == "lv" %}
-            <button id="languages-button" class="selected-language"><span class="selected-language-text" id="selected-language-text">Latviešu</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+            <button id="languages-button" class="selected-language"><div class="selected-language-text-container"><span class="selected-language-text" id="selected-language-text">Latviešu</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></div></button>   
             {% else %}
-            <button id="languages-button" class="selected-language"><span class="selected-language-text" id="selected-language-text">English</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></button>   
+            <button id="languages-button" class="selected-language"><div class="selected-language-text-container"><span class="selected-language-text" id="selected-language-text">English</span><img id="arrow"class="arrow" src="../assets/images/Arrow_Bottom.svg"></div></button>   
             {% endif %}
         </div>
         {% if page.lang == "lv" %}

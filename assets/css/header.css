@@ -20,14 +20,15 @@
 header {
     background-color: #F0F0F2;
     padding-left: 1.35vw;
+    padding-right: 1.35vw;
     padding-top: 1.5625vw;
+    padding-bottom: 1.5625vw;
     text-align: center;
     display: flex;
-    height:4vw;
 }
 a > img{
-    width:7.2vw;
-    height: 3.2vw;
+    width:5.4vw;
+    height: 2.6vw;
 }
 nav {
     display: flex;
@@ -53,14 +54,13 @@ nav {
 }
 .right-part-header{
     margin-left: auto; 
-    margin-right: 2.7vw;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: max-content max-content;
     gap:0.7vw;
 }
 .languages-container{
     height: 2vw;
-    width: 9vw;
+    width: 10vw;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -76,12 +76,12 @@ nav {
 }
 .languages{
     position: absolute;
-    width: 9vw;
-    background-color: #D2D4D9;
+    width: 10vw;
+    background-color: #D2D4D9; 
     border-radius: 1.2vw;
     padding-top: 1.2vw;
     padding-bottom: 0.6vw;
-    margin-top: 3.5vw;
+    margin-top: 3vw;
 }
 .languages-button-container{
    margin: auto;
@@ -111,19 +111,22 @@ nav {
     font-weight: normal;
     font-size: 1vw;
     color: #0F0F10;
-    display: inline-grid;
-    grid-template-columns: 5.5vw 2.3vw;
     gap:0.7vw;
     text-align: right;
-    padding-left: 0;
+    padding: 0;
     margin: auto;
     border: solid;
     border-width: 0.13vw;
     border-radius: 1vw;
     border-color: #D2D4D9 ;
     height: 3vw;
-    width: 9vw;
+    width: 10vw;
     background: none;
+}
+.selected-language-text-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:0.34vw;
 }
 .selected-language-text{
     margin-top: auto;
@@ -132,7 +135,7 @@ nav {
 .LearnMore{
     background-color: #779FEE;
     border-radius: 0.9vw;
-    width: 9vw;
+    width: 10vw;
     height:3vw;
     font-family: "Jost","Arial", sans-serif;
     font-weight: medium;
