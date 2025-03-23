@@ -4,7 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Medium.ttf") format("ttf");
+    font-weight: medium;
+    font-style: medium;
+}
 .main-header{
     display: flex;
     flex-direction: column;
@@ -44,17 +49,12 @@
     left: 2.5vw; /* Position from left */
     background-color: #F0F0F2;
     border-radius: 1vw;
-    width: 20vw;
-    height: 10vw;
+    width: 22vw;
+    height: 11vw;
     padding: 3.38vw 1.875vw;
     z-index: 1; /* Ensure the box is on top of the video */
 }
 .overlay-box-text{
-    color: #535458;
-    font-family: "Jost", Arial, sans-serif;
-    font-weight: normal;
-    font-size: 0.73vw;
-    line-height: 140%;
     margin-bottom: 2vw;
 }
 .overlay-button{
@@ -63,6 +63,55 @@
     background-color: #0F0F10;
     color:#F0F0F2;
     width: 14vw;
-    height: 2.6vw;
-    justify-content: end;
+    height: 2.8vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.3vw;
+    padding: 0.9vw;
+}
+.overlay-button-text{
+    text-align: right;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: medium;
+    font-size: 0.9vw;
+}
+.about-us{
+    margin-top:13.8vw;
+    margin-bottom: 13.8vw;
+    display: grid;
+    grid-template-columns: auto 25vw;
+    gap:6.25vw;
+}
+.about-us-card{
+    background-color: #0F0F10;
+    border-radius: 1.8vw;
+}
+.angled-arrow{
+    width:1vw;
+    height: 1vw;
+}
+.about-us-button-container{
+    display: grid;
+    grid-template-columns:  max-content max-content;
+    gap:1.4vw;
+    height: 1.7vw;
+}
+.about-us-text
+{
+    margin-bottom: 2.4vw;
+}
+.about-us-button{
+    color: #305CDE;
+    line-height: 0.5vw;
+    text-decoration: underline;
+    text-underline-offset: 0.5vw; /* Adjust this value as needed */
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: medium;
+    font-style: medium;
+    font-size: 1.1vw;
+    margin-top: 0.2vw;
+}
+.blue-arrow{
+    width:1.1vw;
+    height:0.9vw;
 }
