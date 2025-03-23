@@ -7,10 +7,28 @@
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/general.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
 </head>
 <body>
 
     {% include header.html %}  <!-- Reusable Header -->
+
+    <div class="main">
+        <h1 class="main-header">
+            <span class="header-first-line">WHERE FINANCE</span>
+            <span class="header-second-line">MEETS INNOVATION</span>
+        </h1>
+        <div class="explore">
+            <video class="first-shot-video" autoplay muted loop playsinline>
+                <source src="../assets/video/first-shot.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay-box">
+                <p class="overlay-box-text">Unlock growth and efficiency with our comprehensive suite of financial services—Budgeting, Planning, Consolidation, Valuation, and Project Management. Designed to empower your decision-making, our solutions help you stay ahead in a competitive market.</p>
+                <button  class="overlay-button">Explore Our Solutions</button>
+            </div>
+        </div>
+    </div>
 
     {% include footer.html %}  <!-- Reusable Footer -->
 

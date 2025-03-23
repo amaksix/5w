@@ -11,13 +11,28 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-ExtraBold.ttf") format("ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
+.main{
+  padding-left: 1.35vw;
+  padding-right: 1.35vw;
+}
 body {
     margin: 0;
+    background-color: #F0F0F2;
 }
 p{
     margin: 0;
 }
-
+h1{
+  font-family: "Mulish", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 4.5vw;
+}
 
 html:not(.scroll-container),
 body:not(.scroll-container) {
