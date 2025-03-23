@@ -137,7 +137,6 @@
     grid-template-columns: auto auto;
     gap: 0.5vw;
     border-radius: 0.9vw;
-    width: 10vw;
     height:3vw;
     padding: 1.7vw;
     padding-top: 1vw;
@@ -150,4 +149,5 @@
     color: #0F0F10;
     font-size: 1vw;
    text-align: right;
+   white-space: nowrap;
 }
