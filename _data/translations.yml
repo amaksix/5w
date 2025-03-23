@@ -1,0 +1,21 @@
+en:
+  main_header_first: "WHERE FINANCE"
+  main_header_second: "MEETS INNOVATION"
+  explore_text: "Unlock growth and efficiency with our comprehensive suite of financial services—Budgeting, Planning, Consolidation, Valuation, and Project Management. Designed to empower your decision-making, our solutions help you stay ahead in a competitive market."
+  explore_button: "Explore Our Solutions"
+  about_us_title: "ABOUT US"
+  about_us_text: "With years of experience in financial consulting, we specialize in delivering innovative solutions that simplify complex processes. Our team is dedicated to helping businesses achieve their financial goals."
+  about_us_button: "Learn More About Us"
+  solutions_header: 'Ignite <span class="highlight-text">Your Potential</span> with Innovations'
+  solutions_text: 'With years of experience in financial consulting, we specialize in delivering innovative solutions that simplify complex processes. Our team is dedicated to helping businesses achieve their financial goals.'
+
+lv:
+  main_header_first: "KUR FINANSES"
+  main_header_second: "SASTOPAS AR INOVĀCIJĀM"
+  explore_text: "Atklājiet izaugsmi un efektivitāti ar mūsu finanšu pakalpojumu klāstu—Budžetēšana, Plānošana, Konsolidācija, Vērtēšana un Projektu vadība. Mūsu risinājumi palīdz jums būt soli priekšā konkurentiem."
+  explore_button: "Izpētīt Mūsu Risinājumus"
+  about_us_title: "PAR MUMS"
+  about_us_text: "Ar daudzu gadu pieredzi finanšu konsultāciju jomā, mēs piedāvājam inovatīvus risinājumus, kas vienkāršo sarežģītus procesus. Mūsu komanda palīdz uzņēmumiem sasniegt savus finanšu mērķus."
+  about_us_button: "Uzzināt Vairāk"
+  solutions_header: 'Aizdedziet <span class="highlight-text">Savus Potenciālus</span> ar Inovācijām'
+  solutions_text: 'Ar daudzu gadu pieredzi finanšu konsultāciju jomā mēs specializējamies inovatīvu risinājumu sniegšanā, kas vienkāršo sarežģītus procesus. Mūsu komanda ir apņēmusies palīdzēt uzņēmumiem sasniegt viņu finanšu mērķus.'

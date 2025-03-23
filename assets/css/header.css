@@ -52,7 +52,7 @@ nav {
     display:inline-block;
     overflow:hidden;
     position:relative;
-    height: 1.14vw;
+    height: 1.25vw;
 }
 .label-up {
     display:block;
@@ -64,7 +64,7 @@ nav {
   }
   
   .btn:hover .label-up {
-    top:-270%;
+    top:-260%;
   }
 .right-part-header{
     margin-left: auto; 

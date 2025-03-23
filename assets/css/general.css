@@ -29,7 +29,7 @@ body {
   color: #535458;
   font-family: "Jost", Arial, sans-serif;
   font-weight: normal;
-  font-size: 0.9vw;
+  font-size: 1.1vw;
   line-height: 140%;
 }
 p{
@@ -39,7 +39,8 @@ p{
 h1{
   font-family: "Mulish", Arial, sans-serif;
   font-weight: bolder;
-  font-size: 4.5vw;
+  font-size: 5.5vw;
+  text-transform: uppercase;
 }
 
 html:not(.scroll-container),
@@ -51,7 +52,7 @@ body:not(.scroll-container) {
 /* For Webkit Browsers (Chrome, Edge, Safari) */
 html:not(.scroll-container)::-webkit-scrollbar,
 body:not(.scroll-container)::-webkit-scrollbar {
-  width: 6px; /* General scrollbar width */
+  width: 2px; /* General scrollbar width */
 }
 
 html:not(.scroll-container)::-webkit-scrollbar-track,

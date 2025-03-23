@@ -49,8 +49,8 @@
     left: 2.5vw; /* Position from left */
     background-color: #F0F0F2;
     border-radius: 1vw;
-    width: 22vw;
-    height: 11vw;
+    width: 30vw;
+    height: 13vw;
     padding: 3.38vw 1.875vw;
     z-index: 1; /* Ensure the box is on top of the video */
 }
@@ -62,24 +62,24 @@
     border: 0;
     background-color: #0F0F10;
     color:#F0F0F2;
-    width: 14vw;
-    height: 2.8vw;
+    width: 18.75vw;
+    height: 3.4vw;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 0.3vw;
-    padding: 0.9vw;
+    gap: 0.5vw;
+    padding: 1.1vw;
 }
 .overlay-button-text{
     text-align: right;
     font-family: "Jost", Arial, sans-serif;
     font-weight: medium;
-    font-size: 0.9vw;
+    font-size: 1vw;
 }
 .about-us{
     margin-top:13.8vw;
     margin-bottom: 13.8vw;
     display: grid;
-    grid-template-columns: auto 25vw;
+    grid-template-columns: auto 30vw;
     gap:6.25vw;
 }
 .about-us-card{
@@ -87,8 +87,8 @@
     border-radius: 1.8vw;
 }
 .angled-arrow{
-    width:1vw;
-    height: 1vw;
+    width:0.9vw;
+    height: 0.9vw;
 }
 .about-us-button-container{
     display: grid;
@@ -108,10 +108,13 @@
     font-family: "Jost", Arial, sans-serif;
     font-weight: medium;
     font-style: medium;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-top: 0.2vw;
 }
 .blue-arrow{
     width:1.1vw;
     height:0.9vw;
+}
+.highlight-text{
+    color:#779FEE;
 }
