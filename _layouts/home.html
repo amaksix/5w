@@ -43,8 +43,8 @@
                 <p class="regular-text about-us-text">
                     {{ site.data.translations[page.lang].about_us_text }}
                 </p>
-                <div class="about-us-button-container">
-                    <a class="about-us-button" href="/{{ page.lang }}/about-us/">
+                <div class="link-button-container">
+                    <a class="link-button" href="/{{ page.lang }}/about-us/">
                         {{ site.data.translations[page.lang].about_us_button }}
                     </a>
                     <img class="blue-arrow">
@@ -53,7 +53,33 @@
         </div>
         <div class="solutions">
             <h1 style="width: 71vw;"> {{ site.data.translations[page.lang].solutions_header}}</h1>
-            <p class="regular-text" style="width: 65vw;">{{ site.data.translations[page.lang].solutions_text}}</p>
+            <div class="solutions-text-container">
+                <p class="regular-text" style="width: 65vw;">{{ site.data.translations[page.lang].solutions_text}}</p>
+                <div class="link-button-container" style="margin-left: auto;">
+                    <a class="link-button" href="/{{ page.lang }}/products/">
+                        {{ site.data.translations[page.lang].products_button }}
+                    </a>
+                    <img class="blue-arrow">
+                </div>
+            </div>
+            <div class="solution-elements-container">
+                <div class="solutions-element">
+                    <p class="solution-element-first">/01</p>
+                </div>
+                <div class="solutions-element">
+                    <p class="solution-element-first">/02</p>
+                </div>
+                <div class="solutions-element">
+                    <p class="solution-element-first">/03</p>
+                </div>
+                <div class="solutions-element">
+                    <p class="solution-element-first">/04</p>
+                </div>
+                <div class="solutions-element">
+                    <p class="solution-element-first">/05</p>
+                </div>
+            </div>
+          
         </div>
         <div class="contact">
             <div class="contact-left-container"><h1 class="contact-header">{{ site.data.translations[page.lang].contact_header}}</h1></div>

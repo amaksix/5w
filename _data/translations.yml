@@ -10,6 +10,7 @@ en:
   solutions_text: 'With years of experience in financial consulting, we specialize in delivering innovative solutions that simplify complex processes. Our team is dedicated to helping businesses achieve their financial goals.'
   contact_header: 'Contact Us'
   contact_us_text: "Take the next step toward financial excellence. Contact us today for a personalized consultation."
+  products_button: "Explore All Solutions"
 
 lv:
   main_header_first: "KUR FINANSES"
@@ -23,3 +24,4 @@ lv:
   solutions_text: 'Ar daudzu gadu pieredzi finanšu konsultāciju jomā mēs specializējamies inovatīvu risinājumu sniegšanā, kas vienkāršo sarežģītus procesus. Mūsu komanda ir apņēmusies palīdzēt uzņēmumiem sasniegt viņu finanšu mērķus.'
   contact_header: 'Sazinieties ar mums'
   contact_us_text: 'Speriet nākamo soli pretī finanšu izcilībai. Sazinieties ar mums jau šodien, lai saņemtu personalizētu konsultāciju.'
+  products_button: "Izpētīt visus risinājumus"

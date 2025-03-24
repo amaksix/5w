@@ -1,20 +1,20 @@
 @font-face {
     font-family: "Jost";
     src: url("../fonts/Jost-Regular.ttf") format("ttf");
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Jost";
     src: url("../fonts/Jost-Bold.ttf") format("ttf");
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 @font-face {
   font-family: "Mulish";
   src: url("../fonts/Mulish-ExtraBold.ttf") format("ttf");
-  font-weight: bolder;
+  font-weight: 800;
   font-style: normal;
 }
 .main{
@@ -28,7 +28,7 @@ body {
 .regular-text{
   color: #535458;
   font-family: "Jost", Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.1vw;
   line-height: 140%;
 }
@@ -38,8 +38,8 @@ p{
 }
 h1{
   font-family: "Mulish", Arial, sans-serif;
-  font-weight: bolder;
-  font-size: 5.5vw;
+  font-weight:800;
+  font-size: 4.5vw;
   text-transform: uppercase;
 }
 

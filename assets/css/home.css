@@ -1,13 +1,19 @@
 @font-face {
     font-family: "Jost";
-    src: url("../fonts/Jost-Regular.ttf") format("ttf");
-    font-weight: normal;
+    src: url("../fonts/Jost-Regular.ttf") format("truetype");
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Jost";
-    src: url("../fonts/Jost-Medium.ttf") format("ttf");
-    font-weight: medium;
+    src: url("../fonts/Jost-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: medium;
+}
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+    font-weight: 700;
     font-style: medium;
 }
 .main-header{
@@ -73,6 +79,7 @@
     gap: 0.5vw;
     padding: 1.1vw;
     align-self: end;
+    line-height: 1vw;
 }
 .overlay-button > .angled-arrow
 {
@@ -89,7 +96,7 @@
 .overlay-button-text{
     text-align: right;
     font-family: "Jost", Arial, sans-serif;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 1vw;
 }
 .about-us{
@@ -107,7 +114,7 @@
     width:0.9vw;
     height: 0.9vw;
 }
-.about-us-button-container{
+.link-button-container{
     display: grid;
     grid-template-columns:  max-content max-content;
     gap:1.4vw;
@@ -117,24 +124,23 @@
 {
     margin-bottom: 2.4vw;
 }
-.about-us-button{
+.link-button{
     color: #305CDE;
     line-height: 0.5vw;
     text-decoration: underline;
     text-underline-offset: 0.5vw; /* Adjust this value as needed */
-    transition: text-underline-offset 0.3s ease;
+    transition: text-underline-offset 0.5s ease;
     font-family: "Jost", Arial, sans-serif;
-    font-weight: medium;
-    font-style: medium;
+    font-weight: 500;
     font-size: 1vw;
     margin-top: 0.2vw;
 }
-.about-us-button-container:hover >.about-us-button{
+.link-button-container:hover >.link-button{
     color: #0F0F10;
     text-decoration: underline;
     text-underline-offset: 1vw; /* Adjust this value as needed */
 }
-.about-us-button-container:hover > .blue-arrow{
+.link-button-container:hover > .blue-arrow{
     content:url("../images/Angled_Arrow_Black.svg");
     transform: rotate(45deg);
 }
@@ -146,8 +152,32 @@
 .highlight-text{
     color:#779FEE;
 }
-
-
+.solutions-text-container{
+    display: grid;
+    grid-template-columns:  auto auto;
+}
+.solutions-element{
+    height: 7.2vw;
+    border: 0;
+    border-top: 0.13vw solid  #D2D4D9;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns:  auto auto auto;
+}
+.solution-elements-container{
+    margin-top:3.5vw;
+}
+.solution-element-first{
+    color: #535458;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+}
 .contact{
     margin-top:13.8vw;
     margin-bottom: 13.8vw;
@@ -171,13 +201,14 @@
     padding: 1.7vw;
     padding-top: 0.9vw;
     padding-bottom: 0.8vw;
+    line-height: 1vw;
 }
 .main-contact-us-button:hover{
     background-color: transparent;
 }
 .main-contact-us-button-text{
     font-family: "Jost","Arial", sans-serif;
-    font-weight: medium;
+    font-weight: 500;
     color: #0F0F10;
     font-size: 1vw;
     text-align: right;
