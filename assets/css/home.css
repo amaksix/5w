@@ -59,7 +59,9 @@
 }
 .overlay-button{
     border-radius: 0.73vw;
-    border: 0;
+    border: solid;
+    border-width: 0.13vw;
+    border-color: #0F0F10;
     background-color: #0F0F10;
     color:#F0F0F2;
     width: 18.75vw;
@@ -68,6 +70,19 @@
     grid-template-columns: auto auto;
     gap: 0.5vw;
     padding: 1.1vw;
+}
+.overlay-button > .angled-arrow
+{
+    content:url("../images/Angled_Arrow.svg");
+}
+.overlay-button:hover > .angled-arrow
+{
+    content:url("../images/Angled_Arrow_Black.svg");
+    transform: rotate(90deg);
+}
+.overlay-button:hover{
+    background-color: transparent;
+    color:#0F0F10;
 }
 .overlay-button-text{
     text-align: right;
@@ -111,9 +126,19 @@
     font-size: 1vw;
     margin-top: 0.2vw;
 }
+.about-us-button-container:hover >.about-us-button{
+    color: #0F0F10;
+    text-decoration: underline;
+    text-underline-offset: 1vw; /* Adjust this value as needed */
+}
+.about-us-button-container:hover > .blue-arrow{
+    content:url("../images/Angled_Arrow_Black.svg");
+    transform: rotate(45deg);
+}
 .blue-arrow{
     width:1.1vw;
     height:0.9vw;
+    content:url("../images/Blue_Arrow.svg");
 }
 .highlight-text{
     color:#779FEE;
@@ -132,22 +157,29 @@
 .main-contact-us-button{
     margin-top: 3.4vw;
     background-color: #779FEE;
-    border:0;
+    border: solid;
+    border-width: 0.13vw;
+    border-color: #779FEE;
     display: grid;
     grid-template-columns: auto auto;
     gap: 0.5vw;
     border-radius: 0.9vw;
     height:3vw;
     padding: 1.7vw;
-    padding-top: 1vw;
+    padding-top: 0.9vw;
     padding-bottom: 0.8vw;
 }
-
+.main-contact-us-button:hover{
+    background-color: transparent;
+}
+.main-contact-us-button:hover > .angled-arrow{
+    transform: rotate(90deg);
+}
 .main-contact-us-button-text{
     font-family: "Jost","Arial", sans-serif;
     font-weight: medium;
     color: #0F0F10;
     font-size: 1vw;
-   text-align: right;
-   white-space: nowrap;
+    text-align: right;
+    white-space: nowrap;
 }

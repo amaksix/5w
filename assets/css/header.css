@@ -91,11 +91,12 @@ nav {
 .languages{
     position: absolute;
     width: 10vw;
-    background-color: #D2D4D9; 
+    background-color: #F0F0F2; 
     border-radius: 1.2vw;
     padding-top: 1.2vw;
     padding-bottom: 0.6vw;
     margin-top: 3vw;
+    box-shadow: 0  0.13vw 0.2vw rgba(15, 15, 16,0.15);
 }
 .languages-button-container{
    margin: auto;
@@ -137,6 +138,9 @@ nav {
     width: 10vw;
     background: none;
 }
+.selected-language:hover{
+    border-color: #779FEE;
+}
 .selected-language-text-container{
     display: grid;
     grid-template-columns: auto auto;
@@ -155,5 +159,10 @@ nav {
     font-weight: medium;
     color: #0F0F10;
     font-size: 1vw;
-    border: none;
+    border: solid;
+    border-width: 0.13vw;
+    border-color: #779FEE;
+}
+.LearnMore:hover{
+    background-color: transparent;
 }
