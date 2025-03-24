@@ -37,7 +37,7 @@ footer{
     margin-bottom: 1vw;
 }
 .footer-text{
-    color: #F0F0F2;
+    color: #D2D4D9;
     font-family: "Jost", Arial, sans-serif;
     font-weight: normal;
     font-size: 1.15vw;
@@ -59,4 +59,14 @@ footer{
 .footer-image{
     width: 97.3vw;
     margin-top: -1.3vw;
+}
+
+.social-media-button{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.social-media-button:hover >p{
+    color: #F0F0F2;
 }

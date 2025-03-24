@@ -2,15 +2,10 @@ var isClicked= false;
 const button = document.getElementById('languages-button');
 const image = document.getElementById('arrow');
 const originalSrc = '../assets/images/Arrow_Bottom.svg';
-const hoverSrc = '../assets/images/Arrow_Bottom_Hover.svg';
-const clickSrc = '../assets/images/Arrow_Left.svg';
+const clickSrc = '../assets/images/Arrow_Top.svg';
 
 const languagesDropdown = document.getElementById('languages-dropdown');
 
-button.addEventListener('mouseover', function() {
-    if(!isClicked)
-        image.src = hoverSrc;
-});
 
 button.addEventListener('mouseout', function() {
     if(!isClicked)

@@ -34,6 +34,7 @@
     justify-content: center;
     align-items: flex-end;
     overflow:hidden;
+    background-color: #0F0F10;
 }
 
 .first-shot-video {
@@ -53,6 +54,7 @@
     height: 13vw;
     padding: 3.38vw 1.875vw;
     z-index: 1; /* Ensure the box is on top of the video */
+    display: grid;
 }
 .overlay-box-text{
     margin-bottom: 2vw;
@@ -70,6 +72,7 @@
     grid-template-columns: auto auto;
     gap: 0.5vw;
     padding: 1.1vw;
+    align-self: end;
 }
 .overlay-button > .angled-arrow
 {
@@ -78,7 +81,6 @@
 .overlay-button:hover > .angled-arrow
 {
     content:url("../images/Angled_Arrow_Black.svg");
-    transform: rotate(90deg);
 }
 .overlay-button:hover{
     background-color: transparent;
@@ -120,6 +122,7 @@
     line-height: 0.5vw;
     text-decoration: underline;
     text-underline-offset: 0.5vw; /* Adjust this value as needed */
+    transition: text-underline-offset 0.3s ease;
     font-family: "Jost", Arial, sans-serif;
     font-weight: medium;
     font-style: medium;
@@ -171,9 +174,6 @@
 }
 .main-contact-us-button:hover{
     background-color: transparent;
-}
-.main-contact-us-button:hover > .angled-arrow{
-    transform: rotate(90deg);
 }
 .main-contact-us-button-text{
     font-family: "Jost","Arial", sans-serif;
