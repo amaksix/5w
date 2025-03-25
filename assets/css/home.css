@@ -8,13 +8,19 @@
     font-family: "Jost";
     src: url("../fonts/Jost-Medium.ttf") format("truetype");
     font-weight: 500;
-    font-style: medium;
+    font-style: normal;
 }
 @font-face {
     font-family: "Mulish";
     src: url("../fonts/Mulish-Bold.ttf") format("truetype");
     font-weight: 700;
-    font-style: medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
 }
 .main-header{
     display: flex;
@@ -164,20 +170,58 @@
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns:  auto auto auto;
+    grid-template-columns:  13.1vw auto 50.5vw;
+    background-color: transparent;
+}
+.solutions-element-hover{
+    background-color: #0F0F10;
+    border-radius: 1.8vw;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns:  13.1vw auto 50.5vw;
+    width: 95%;
+    height: 7.2vw;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.solution-element-content-hover{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #F0F0F2;
+}
+.solution-element-third-hover{
+    color: #D2D4D9;
+    margin-right: 4.1vw;
+}
+.solutions-element-last{
+    border-bottom: 0.13vw solid  #D2D4D9;
 }
 .solution-elements-container{
     margin-top:3.5vw;
 }
-.solution-element-first{
+.solution-element-content{
+    margin-top: auto;
+    margin-bottom: auto;
     color: #535458;
+}
+.solution-element-first{
     font-family: "Mulish", Arial, sans-serif;
     font-weight: 700;
     font-size: 2vw;
-    margin-top: auto;
-    margin-bottom: auto;
     margin-left: 2vw;
 }
+
+.solution-element-second{
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+.solution-element-third{
+    margin-right: 4.1vw;
+}
+
 .contact{
     margin-top:13.8vw;
     margin-bottom: 13.8vw;

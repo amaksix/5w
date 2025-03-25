@@ -11,7 +11,16 @@ en:
   contact_header: 'Contact Us'
   contact_us_text: "Take the next step toward financial excellence. Contact us today for a personalized consultation."
   products_button: "Explore All Solutions"
-
+  solutions_element_first_header: "Budgeting & Planning"
+  solutions_element_second_header: "Financial Consolidation"
+  solutions_element_third_header: "Financial Valuation"
+  solutions_element_forth_header: "Project Management"
+  solutions_element_fifth_header: "Outsorced CFO"
+  solutions_element_first_text: "Drive business performance with seamless budgeting and planning powered by Jedox, the market-leading enterprise performance management (EPM) software."
+  solutions_element_second_text: "Make multi-entity reporting and compliance easy with our Financial Consolidationservices. We ensure accuracy, transparency, and compliance in all aspects of consolidated financial reporting."
+  solutions_element_third_text: "Accurate and reliable Financial Valuation services to support mergers, acquisitions, strategic planning, and investment decisions."
+  solutions_element_forth_text: "Achieve your business objectives with our Project Management services—ensuring projects are delivered on time, within budget, and aligned with your strategic goals."
+  solutions_element_fifth_text: "Proactive threat detection and neutralization to keep your business secure."
 lv:
   main_header_first: "KUR FINANSES"
   main_header_second: "SASTOPAS AR INOVĀCIJĀM"
@@ -22,6 +31,16 @@ lv:
   about_us_button: "Uzzināt Vairāk"
   solutions_header: 'Aizdedziet <span class="highlight-text">Savus Potenciālus</span> ar Inovācijām'
   solutions_text: 'Ar daudzu gadu pieredzi finanšu konsultāciju jomā mēs specializējamies inovatīvu risinājumu sniegšanā, kas vienkāršo sarežģītus procesus. Mūsu komanda ir apņēmusies palīdzēt uzņēmumiem sasniegt viņu finanšu mērķus.'
-  contact_header: 'Sazinieties Ar Mums'
+  contact_header: 'Sazinieties ar Mums'
   contact_us_text: 'Speriet nākamo soli pretī finanšu izcilībai. Sazinieties ar mums jau šodien, lai saņemtu personalizētu konsultāciju.'
   products_button: "Izpētīt Visus Risinājumus"
+  solutions_element_first_header: "Budžeta Plānošana"
+  solutions_element_second_header: "Finanšu Konsolidācija"
+  solutions_element_third_header: "Finanšu Novērtēšana"
+  solutions_element_forth_header: "Projektu Vadība"
+  solutions_element_fifth_header: "Ārpakalpojumu CFO"
+  solutions_element_first_text: "Uzlabojiet uzņēmuma veiktspēju ar nevainojamu budžeta plānošanu, ko nodrošina Jedox – tirgū vadošā uzņēmuma veiktspējas vadības (EPM) programmatūra."
+  solutions_element_second_text: "Atvieglojiet daudzuzņēmumu finanšu pārskatu sagatavošanu un atbilstības nodrošināšanu ar mūsu finanšu konsolidācijas pakalpojumiem. Mēs garantējam precizitāti, caurredzamību un atbilstību visos konsolidētās finanšu atskaites aspektos."
+  solutions_element_third_text: "Precīzi un uzticami finanšu novērtēšanas pakalpojumi, kas atbalsta apvienošanos, pārņemšanu, stratēģisko plānošanu un investīciju lēmumus."
+  solutions_element_forth_text: "Sasniedziet savus biznesa mērķus ar mūsu projektu vadības pakalpojumiem – nodrošinot, ka projekti tiek īstenoti laikā, ietverot budžetu un saskaņoti ar jūsu stratēģiskajiem mērķiem."
+  solutions_element_fifth_text: "Proaktīva draudu noteikšana un neitralizācija, lai nodrošinātu jūsu uzņēmuma drošību."
