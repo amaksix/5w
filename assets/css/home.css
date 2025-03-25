@@ -105,16 +105,18 @@
     font-weight: 500;
     font-size: 1vw;
 }
+
 .about-us{
-    margin-top:13.8vw;
+    margin-top:30vw;
     margin-bottom: 13.8vw;
     display: grid;
     grid-template-columns: auto 30vw;
     gap:6.25vw;
 }
-.about-us-card{
-    background-color: #0F0F10;
-    border-radius: 1.8vw;
+.about-us-image{
+    width:56vw;
+    height:51vw;
+    margin-top:-13vw;
 }
 .angled-arrow{
     width:0.9vw;
@@ -313,18 +315,18 @@
     margin-top: -0.55vw;
 }
 .scroll-content-element{
-    width: 23vw;
-    height:20vw;
+    width: 24vw;
+    height:21vw;
     border-radius: 1.1vw;
     border:0.13vw solid #D2D4D9;
-    padding:2.6vw;
+    padding:2vw;
 }
 .scroll-content-element-active{
-    width: 23vw;
-    height:20vw;
+    width: 24vw;
+    height:21vw;
     border-radius: 1.1vw;
     background: linear-gradient(#779FEE, #F0F0F2);
-    padding:2.6vw;
+    padding:2vw;
 }
 .scroll-content-element-header-container{
     display: grid;
@@ -363,8 +365,8 @@
 .line{
     border-bottom: 0.13vw solid  #D2D4D9;
     height: 0;
-    margin-top: 1vw;
-    margin-bottom: 1.45vw;
+    margin-top: 0.75vw;
+    margin-bottom: 1.20vw;
 }
 .line-active{
     border-bottom: 0.13vw solid #0F0F10;
