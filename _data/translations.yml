@@ -21,6 +21,20 @@ en:
   solutions_element_third_text: "Accurate and reliable Financial Valuation services to support mergers, acquisitions, strategic planning, and investment decisions."
   solutions_element_forth_text: "Achieve your business objectives with our Project Management services—ensuring projects are delivered on time, within budget, and aligned with your strategic goals."
   solutions_element_fifth_text: "Proactive threat detection and neutralization to keep your business secure."
+  phases_header: 'Elevate Your Business with Our <span class="highlight-text">Five-Phase</span> Approach'
+  phases_text: 'Explore our five-phase approach to see how we drive growth and efficiency at every step'
+  phase: "Phase"
+  phase_scroll_content_header_first: "Who"
+  phase_scroll_content_header_second: "What"
+  phase_scroll_content_header_third: "When"
+  phase_scroll_content_header_forth: "Why"
+  phase_scroll_content_header_fifth: "Where"
+  phase_scroll_content_text_first: "Our network consists of leading professionals with extensive experience and industry recognition."
+  phase_scroll_content_text_second: "Whether you need a budgeting expert, a consolidation professional for multi-entity reporting, or a valuation consultant for strategic planning, we’ll match you with the right person for the job."
+  phase_scroll_content_text_third: "Scaling up? We help with strategic planning. Merging companies? We handle financial consolidation. Uncertain about valuation? We provide clarity."
+  phase_scroll_content_text_forth: "Your success is our priority. We’re committed to delivering measurable results and exceeding expectations."
+  phase_scroll_content_text_fifth: "We work globally, connecting businesses with top-tier financial experts regardless of location. Whether you're a startup, mid-sized company, or enterprise-level corporation, we bring the right expertise to your doorstep—virtually or in person."
+
 lv:
   main_header_first: "KUR FINANSES"
   main_header_second: "SASTOPAS AR INOVĀCIJĀM"
@@ -44,3 +58,16 @@ lv:
   solutions_element_third_text: "Precīzi un uzticami finanšu novērtēšanas pakalpojumi, kas atbalsta apvienošanos, pārņemšanu, stratēģisko plānošanu un investīciju lēmumus."
   solutions_element_forth_text: "Sasniedziet savus biznesa mērķus ar mūsu projektu vadības pakalpojumiem – nodrošinot, ka projekti tiek īstenoti laikā, ietverot budžetu un saskaņoti ar jūsu stratēģiskajiem mērķiem."
   solutions_element_fifth_text: "Proaktīva draudu noteikšana un neitralizācija, lai nodrošinātu jūsu uzņēmuma drošību."
+  phases_header: 'Paceliet savu biznesu augstāk ar mūsu <span class="highlight-text">piecu posmu</span> pieeju'
+  phases_text: 'Izpētiet mūsu piecu posmu pieeju, lai redzētu, kā mēs veicinām izaugsmi un efektivitāti ik uz soļa.'
+  "phase": "Posms"
+  "phase_scroll_content_header_first": "Kas"
+  "phase_scroll_content_header_second": "Ko"
+  "phase_scroll_content_header_third": "Kad"
+  "phase_scroll_content_header_forth": "Kāpēc"
+  "phase_scroll_content_header_fifth": "Kur"
+  "phase_scroll_content_text_first": "Mūsu tīkls sastāv no vadošajiem profesionāļiem ar plašu pieredzi un nozares atzinību."
+  "phase_scroll_content_text_second": "Neatkarīgi no tā, vai jums nepieciešams budžeta plānošanas eksperts, konsolidācijas speciālists vairāku vienību atskaitēm vai vērtēšanas konsultants stratēģiskajai plānošanai, mēs piemeklēsim jums īsto speciālistu."
+  "phase_scroll_content_text_third": "Plānojat paplašināties? Mēs palīdzam ar stratēģisko plānošanu. Apvienojat uzņēmumus? Mēs nodrošinām finanšu konsolidāciju. Neesat pārliecināts par vērtējumu? Mēs sniedzam skaidrību."
+  "phase_scroll_content_text_forth": "Jūsu panākumi ir mūsu prioritāte. Mēs esam apņēmušies nodrošināt izmērāmu rezultātu un pārsniegt cerības."
+  "phase_scroll_content_text_fifth": "Mēs strādājam globāli, savienojot uzņēmumus ar augstākās klases finanšu ekspertiem neatkarīgi no atrašanās vietas. Neatkarīgi no tā, vai esat jaunuzņēmums, vidēja lieluma uzņēmums vai liela korporācija, mēs nodrošinām jums nepieciešamo ekspertīzi – gan virtuāli, gan klātienē."

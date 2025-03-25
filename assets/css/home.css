@@ -137,8 +137,8 @@
     text-underline-offset: 0.5vw; /* Adjust this value as needed */
     transition: text-underline-offset 0.5s ease;
     font-family: "Jost", Arial, sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
+    font-weight: 400;
+    font-size: 1.1vw;
     margin-top: 0.2vw;
 }
 .link-button-container:hover >.link-button{
@@ -221,7 +221,136 @@
 .solution-element-third{
     margin-right: 4.1vw;
 }
+.phases{
+    margin-top: 11.8vw;
+}
+.phases-header{
+    text-align: center; 
+    width:80%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.phases-text{
+    text-align: center;
 
+}
+
+ /* Container with horizontal scroll */
+
+  /* Content inside the container */
+  .scroll-content-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0.7vw;
+    padding-bottom:5vw;
+  }
+  .scroll-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin: auto;
+    padding-top: 2vw;
+    
+    /* Hide default scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers */
+}
+
+/* Custom scrollbar track */
+.custom-scroll-track {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 2vw; /* Same as scrollbar height */
+    background: url('../images/ScrollTrack.svg') no-repeat center;
+    background-size: cover;
+    margin: auto;
+    top: -3vw; /* Adjust to align above content */
+}
+/* Prevent selection globally while dragging */
+.no-select {
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Prevent selection on the scrollbar thumb itself */
+.custom-scroll-thumb {
+    user-select: none;
+}
+
+/* Custom scrollbar thumb */
+.custom-scroll-thumb {
+    position: absolute;
+    width: 10vw; /* Set thumb size */
+    height: 2vw;
+    background: url('../images/Button_SCROLL.svg') no-repeat center;
+    background-size: contain;
+    cursor: grab;
+}
+.scroll-content-element{
+    width: 26.5vw;
+    height:27.3vw;
+    border-radius: 1.1vw;
+    border:0.13vw solid #D2D4D9;
+    padding:2.6vw;
+}
+.scroll-content-element-active{
+    width: 26.5vw;
+    height:27.3vw;
+    border-radius: 1.1vw;
+    background: linear-gradient(#779FEE, #F0F0F2);
+    padding:2.6vw;
+}
+.scroll-content-element-header-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.scroll-content-element-header-left{
+    color:#D2D4D9;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    font-size:3.4vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.scroll-content-element-header-right{
+    text-align: right;
+    color:#D2D4D9;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.1vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.scroll-content-element-header-left-active{
+    color:#0F0F10;
+}
+.scroll-content-element-header-right-active{
+    color:#0F0F10;
+}
+.scroll-content-element-second-header{
+    color: #0f0f10;;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    font-size:2vw;
+    margin-top: 5vw;
+}
+.line{
+    border-bottom: 0.13vw solid  #D2D4D9;
+    height: 0;
+    margin-top: 1vw;
+    margin-bottom: 1.45vw;
+}
+.line-active{
+    border-bottom: 0.13vw solid #0F0F10;
+}
+.scroll-content-element-text{
+    text-wrap: wrap;
+}
 .contact{
     margin-top:13.8vw;
     margin-bottom: 13.8vw;
