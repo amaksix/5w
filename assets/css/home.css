@@ -107,15 +107,14 @@
 }
 
 .about-us{
-    margin-top:25vw;
-    margin-bottom: 13.8vw;
+    margin-top:20vw;
+    margin-bottom: 10vw;
     display: grid;
     grid-template-columns: auto 30vw;
-    gap:6.25vw;
 }
 .about-us-image{
-    width:50vw;
-    height:46vw;
+    width:55vw;
+    height:43vw;
     margin-top:-11vw;
 }
 .angled-arrow{
