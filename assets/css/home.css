@@ -107,15 +107,28 @@
 }
 
 .about-us{
-    margin-top:20vw;
-    margin-bottom: 10vw;
+    margin-top:18vw;
+    margin-bottom: 18vw;
     display: grid;
     grid-template-columns: auto 30vw;
 }
-.about-us-image{
-    width:55vw;
-    height:43vw;
-    margin-top:-11vw;
+
+.about-us-image-container {
+    position: relative;
+    margin-top: -6vw;
+}
+.about-us-image-container img {
+    position: absolute;
+    width: 34vw; /* Ensure both images are the same size */
+    height: 33vw;
+}
+.about-us-image-back {
+    top: 2vw;
+    left: 14vw;
+    z-index: 1;
+}
+.about-us-image-front {
+    z-index: 2;
 }
 .angled-arrow{
     width:0.9vw;
