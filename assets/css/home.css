@@ -22,6 +22,12 @@
     font-weight: 500;
     font-style: normal;
 }
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
 .main-header{
     position: absolute;
     display: flex;
@@ -45,7 +51,7 @@
     position: relative; /* Set the container as the reference for stacking */
     width: 100vw;
     margin-left: -1.35vw;
-    height: 53vw;
+    height: 56.25vw;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -191,7 +197,7 @@
 .solutions-element{
     height: 7.2vw;
     border: 0;
-    border-top: 0.13vw solid  #D2D4D9;
+    border-top: 0.13vw solid  #E1E2E5;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -200,8 +206,7 @@
     background-color: transparent;
 }
 .solutions-element-hover{
-    background-color: #0F0F10;
-    border-radius: 1.8vw;
+    background-color: #E1E2E5;
     border: 0;
     margin-left: auto;
     margin-right: auto;
@@ -209,28 +214,34 @@
     grid-template-columns:  13.1vw auto 50.5vw;
     width: 95%;
     height: 7.2vw;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding-left: 3.85%;
+    padding-right: 3.85%;
+    margin-left: -1.35vw;
+}
+.solutions-element-hovered-higher{
+    border: 0;
 }
 .solution-element-content-hover{
     margin-top: auto;
     margin-bottom: auto;
-    color: #F0F0F2;
+    color: #0F0F10;
 }
 .solution-element-first-hover{
     font-family: "Mulish", Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.4vw;
     margin-left: 2vw;
-    color:#F0F0F2;
 }
 
 .solution-element-third-hover{
-    color: #D2D4D9;
-    margin-right: 4.1vw;
+    color: #535458;
+    margin-right: 4vw;
 }
 .solutions-element-last{
-    border-bottom: 0.13vw solid  #D2D4D9;
+    border-bottom: 0.13vw solid  #E1E2E5;
+}
+.solutions-element-last-hovered{
+    border: 0;
 }
 .solution-elements-container{
     margin-top:3.5vw;
@@ -242,7 +253,7 @@
 }
 .solution-element-first{
     font-family: "Mulish", Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.4vw;
     margin-left: 2vw;
     color:#9B9DA0;
