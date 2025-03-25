@@ -228,7 +228,7 @@
 }
 .solution-element-first-hover{
     font-family: "Mulish", Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.4vw;
     margin-left: 2vw;
 }
@@ -236,6 +236,11 @@
 .solution-element-third-hover{
     color: #535458;
     margin-right: 4vw;
+}
+.solution-element-second-hover{
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
 }
 .solutions-element-last{
     border-bottom: 0.13vw solid  #E1E2E5;
@@ -261,7 +266,7 @@
 
 .solution-element-second{
     font-family: "Mulish", Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.4vw;
 }
 .solution-element-third{
