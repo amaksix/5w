@@ -46,13 +46,13 @@ nav {
     transition: background 0.3s;
     font-family: "Jost", Arial, sans-serif;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 1.1vw;
     margin: auto;
     text-wrap: nowrap;
     display:inline-block;
     overflow:hidden;
     position:relative;
-    height: 1.25vw;
+    height: 1.5vw;
 }
 .label-up {
     display:block;
@@ -64,7 +64,7 @@ nav {
   }
   
   .btn:hover .label-up {
-    top:-260%;
+    top:-230%;
   }
 .right-part-header{
     margin-left: auto; 
@@ -106,8 +106,8 @@ nav {
 .languages-button{
     color: #0F0F10;
     font-family: "Jost", Arial, sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
+    font-weight: 400;
+    font-size: 1.1vw;
     text-align: left;
     margin-left: 0.6vw;
     letter-spacing: 2%;
