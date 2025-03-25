@@ -34,7 +34,7 @@
     width: 100%;
 }
 .header-second-line{
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 .explore {
@@ -107,16 +107,16 @@
 }
 
 .about-us{
-    margin-top:30vw;
+    margin-top:25vw;
     margin-bottom: 13.8vw;
     display: grid;
     grid-template-columns: auto 30vw;
     gap:6.25vw;
 }
 .about-us-image{
-    width:56vw;
-    height:51vw;
-    margin-top:-13vw;
+    width:50vw;
+    height:46vw;
+    margin-top:-11vw;
 }
 .angled-arrow{
     width:0.9vw;
