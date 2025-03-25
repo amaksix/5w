@@ -24,12 +24,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (element === closestElement) {
                     element.classList.replace("solutions-element", "solutions-element-hover");
                     children[0].classList.replace("solution-element-content", "solution-element-content-hover");
+                    children[0].classList.replace("solution-element-first", "solution-element-first-hover");
                     children[1].classList.replace("solution-element-content", "solution-element-content-hover");
                     children[2].classList.replace("solution-element-content", "solution-element-content-hover");
                     children[2].classList.replace("solution-element-third", "solution-element-third-hover");
                 } else {
                     element.classList.replace("solutions-element-hover", "solutions-element");
                     children[0].classList.replace("solution-element-content-hover", "solution-element-content");
+                    children[0].classList.replace("solution-element-first-hover", "solution-element-first");
                     children[1].classList.replace("solution-element-content-hover", "solution-element-content");
                     children[2].classList.replace("solution-element-content-hover", "solution-element-content");
                     children[2].classList.replace("solution-element-third-hover", "solution-element-third");

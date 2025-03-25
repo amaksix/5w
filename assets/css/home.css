@@ -191,6 +191,14 @@
     margin-bottom: auto;
     color: #F0F0F2;
 }
+.solution-element-first-hover{
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.4vw;
+    margin-left: 2vw;
+    color:#F0F0F2;
+}
+
 .solution-element-third-hover{
     color: #D2D4D9;
     margin-right: 4.1vw;
@@ -209,8 +217,9 @@
 .solution-element-first{
     font-family: "Mulish", Arial, sans-serif;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 1.4vw;
     margin-left: 2vw;
+    color:#9B9DA0;
 }
 
 .solution-element-second{
@@ -220,6 +229,7 @@
 }
 .solution-element-third{
     margin-right: 4.1vw;
+    color:#9B9DA0;
 }
 .phases{
     margin-top: 11.8vw;
@@ -241,7 +251,7 @@
   .scroll-content-box {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    gap: 0.7vw;
+    gap: 0.5vw;
     padding-bottom:5vw;
   }
   .scroll-container {
@@ -264,12 +274,12 @@
 /* Custom scrollbar track */
 .custom-scroll-track {
     position: relative;
-    width: 100%; /* Adjust as needed */
-    height: 2vw; /* Same as scrollbar height */
+    width: 75%; /* Adjust as needed */
+    height: 1vw; /* Same as scrollbar height */
     background: url('../images/ScrollTrack.svg') no-repeat center;
     background-size: cover;
     margin: auto;
-    top: -3vw; /* Adjust to align above content */
+   
 }
 /* Prevent selection globally while dragging */
 .no-select {
@@ -286,21 +296,32 @@
 .custom-scroll-thumb {
     position: absolute;
     width: 10vw; /* Set thumb size */
-    height: 2vw;
+    height:2vw;
+    margin-top: -0.5vw;
     background: url('../images/Button_SCROLL.svg') no-repeat center;
     background-size: contain;
     cursor: grab;
 }
+.custom-scroll-thumb:hover {
+    width: 10.1vw; /* Set thumb size */
+    height:2.1vw;
+    margin-top: -0.55vw;
+}
+.custom-scroll-thumb:active {
+    width: 10.1vw; /* Set thumb size */
+    height:2.1vw;
+    margin-top: -0.55vw;
+}
 .scroll-content-element{
-    width: 26.5vw;
-    height:27.3vw;
+    width: 23vw;
+    height:20vw;
     border-radius: 1.1vw;
     border:0.13vw solid #D2D4D9;
     padding:2.6vw;
 }
 .scroll-content-element-active{
-    width: 26.5vw;
-    height:27.3vw;
+    width: 23vw;
+    height:20vw;
     border-radius: 1.1vw;
     background: linear-gradient(#779FEE, #F0F0F2);
     padding:2.6vw;
@@ -337,7 +358,7 @@
     font-family: "Mulish", Arial, sans-serif;
     font-weight: 700;
     font-size:2vw;
-    margin-top: 5vw;
+    margin-top: 1.5vw;
 }
 .line{
     border-bottom: 0.13vw solid  #D2D4D9;
