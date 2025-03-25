@@ -17,6 +17,10 @@
   font-weight: 800;
   font-style: normal;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .main{
   padding-left: 1.35vw;
   padding-right: 1.35vw;
