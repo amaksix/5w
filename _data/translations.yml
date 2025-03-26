@@ -34,7 +34,9 @@ en:
   phase_scroll_content_text_third: "Scaling up? We help with strategic planning. Merging companies? We handle financial consolidation. Uncertain about valuation? We provide clarity."
   phase_scroll_content_text_forth: "Your success is our priority. We’re committed to delivering measurable results and exceeding expectations."
   phase_scroll_content_text_fifth: "We work globally, connecting businesses with top-tier financial experts regardless of location. Whether you're a startup, mid-sized company, or enterprise-level corporation, we bring the right expertise to your doorstep—virtually or in person."
-
+  products_header: 'Explore Our <span class="highlight-text">Products</span>'
+  products_description_header: "Trusted by leading companies across industries, our solutions deliver real impact."
+  products_description_text: 'Unlock growth and efficiency with our comprehensive suite of financial services—Budgeting, Planning, Consolidation, Valuation, and Project Management. Designed to empower your decision-making, our solutions help you stay ahead in a competitive market.'
 lv:
   main_header_first: "KUR FINANSES SASTOPAS AR"
   main_header_second: "INOVĀCIJĀM"
@@ -71,3 +73,4 @@ lv:
   "phase_scroll_content_text_third": "Plānojat paplašināties? Mēs palīdzam ar stratēģisko plānošanu. Apvienojat uzņēmumus? Mēs nodrošinām finanšu konsolidāciju. Neesat pārliecināts par vērtējumu? Mēs sniedzam skaidrību."
   "phase_scroll_content_text_forth": "Jūsu panākumi ir mūsu prioritāte. Mēs esam apņēmušies nodrošināt izmērāmu rezultātu un pārsniegt cerības."
   "phase_scroll_content_text_fifth": "Mēs strādājam globāli, savienojot uzņēmumus ar augstākās klases finanšu ekspertiem neatkarīgi no atrašanās vietas. Neatkarīgi no tā, vai esat jaunuzņēmums, vidēja lieluma uzņēmums vai liela korporācija, mēs nodrošinām jums nepieciešamo ekspertīzi – gan virtuāli, gan klātienē."
+  products_header: 'Izpētiet mūsu <span class="highlight-text">produktus</span>'

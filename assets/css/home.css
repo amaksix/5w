@@ -187,9 +187,6 @@
     height:0.9vw;
     content:url("../images/Blue_Arrow.svg");
 }
-.highlight-text{
-    color:#779FEE;
-}
 .solutions-text-container{
     display: grid;
     grid-template-columns:  auto auto;

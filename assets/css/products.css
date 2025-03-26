@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+.products-main-header{
+    margin-top:4.68vw;
+    text-align: center;
+}
+.products-description{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.7vw;
+}
+.products-description-image{
+    width: 100%;
+}
+.products-description-left-container{
+    position: relative; 
+}
+.products-description-left-container-content{
+    position: absolute; /* Allows the box to overlap on top */
+    top: 5.5vw; /* Position from bottom */
+    left: 5vw; /* Position from left */
+    z-index: 1;
+}
+.products-description-content-header{
+    color: #F0F0F2;
+    font-size: 3.5vw;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    width: 36.5vw;
+}
+.products-description-content-text{
+    color:#9B9DA0;
+    font-size: 0.9vw;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 400;
+    width: 30vw;
+    margin-top: 2.5vw;
+}
+.learn-more-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:12.9vw;
+    height:12.9vw;
+    margin-top: -7vw;
+    margin-bottom: 15vw;
+}
+.learn-more-arrow-down{
+    position: absolute;
+    top:43.7%;
+    left: 43.7%;
+    width:1.5vw
+}
+.learn-more-circle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:12.9vw;
+    animation: rotating 4s linear infinite;
+}
+@keyframes rotating {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
