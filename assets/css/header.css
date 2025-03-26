@@ -81,8 +81,7 @@ nav {
 .arrow{
     margin-top: auto;
     margin-bottom: auto;
-    max-width: 0.83vw;
-    max-height: 0.83vw;
+    width: 0.83vw;
 }
 
 .hidden {
@@ -97,6 +96,7 @@ nav {
     padding-bottom: 0.6vw;
     margin-top: 4vw;
     box-shadow: 0  0.13vw 0.2vw rgba(15, 15, 16,0.15);
+    z-index: 3;
 }
 .languages-button-container{
    margin: auto;

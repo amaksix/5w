@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     children[0].classList.replace("solution-element-content", "solution-element-content-hover");
                     children[0].classList.replace("solution-element-first", "solution-element-first-hover");
                     children[1].classList.replace("solution-element-content", "solution-element-content-hover");
-                    children[1].classList.replace(".solution-element-second", ".solution-element-second-hover");
+                    children[1].classList.replace("solution-element-second", "solution-element-second-hover");
                     children[2].classList.replace("solution-element-content", "solution-element-content-hover");
                     children[2].classList.replace("solution-element-third", "solution-element-third-hover");
         
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     children[0].classList.replace("solution-element-content-hover", "solution-element-content");
                     children[0].classList.replace("solution-element-first-hover", "solution-element-first");
                     children[1].classList.replace("solution-element-content-hover", "solution-element-content");
-                    children[1].classList.replace(".solution-element-second-hover", ".solution-element-second");
+                    children[1].classList.replace("solution-element-second-hover", "solution-element-second");
                     children[2].classList.replace("solution-element-content-hover", "solution-element-content");
                     children[2].classList.replace("solution-element-third-hover", "solution-element-third");
         
