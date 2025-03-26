@@ -17,7 +17,7 @@
     font-style: normal;
 }
 .products-main-header{
-    margin-top:4.68vw;
+    margin-top:3.4vw;
     text-align: center;
 }
 .products-description{
@@ -167,4 +167,5 @@
     height:0.07vw; /* Custom height */
     border-top: 0.07vw solid #779FEE;
     flex-shrink: 0;
+    margin-top: -1.25vw;
 }
