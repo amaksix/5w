@@ -133,13 +133,13 @@ nav {
     border: solid;
     border-width: 0.13vw;
     border-radius: 1vw;
-    border-color: #E1E2E5 ;
+    border-color: #F0F0F2 ;
     height: 3vw;
     width: 10vw;
     background: none;
 }
 .selected-language:hover{
-    border-color: #0F0F10;
+    border-color: #E1E2E5;
 }
 .selected-language-text-container{
     display: grid;
