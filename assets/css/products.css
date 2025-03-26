@@ -5,6 +5,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
     font-family: "Jost";
     src: url("../fonts/Jost-Regular.ttf") format("truetype");
     font-weight: 400;
@@ -33,18 +39,16 @@
 }
 .products-description-content-header{
     color: #E1E2E5;
-    font-size: 3.5vw;
+    font-size: 3.2vw;
     font-family: "Mulish", Arial, sans-serif;
     font-weight: 700;
     width: 36.5vw;
+    line-height: 120%;
 }
 .products-description-content-text{
     color:#9B9DA0;
-    font-size: 0.9vw;
-    font-family: "Jost", Arial, sans-serif;
-    font-weight: 400;
     width: 30vw;
-    margin-top: 2.5vw;
+    margin-top: 3.125vw;
 }
 .learn-more-container{
     position: relative;
@@ -75,4 +79,92 @@
     to {
         transform: rotate(1turn);
     }
+}
+.products-container{
+    position: relative;
+    margin-left: -1.35vw;
+    height: 218vw;
+}
+.product-container{
+    position: absolute;
+    border-top-left-radius: 2vw;
+    border-top-right-radius:2vw;
+    box-shadow: 0  -0.13vw 0.2vw rgba(15, 15, 16,0.15);
+    height: 39.1vw;
+    width: 94.6vw;
+    display: grid;
+    grid-template-columns: 31vw 27.7vw 27.7vw;
+    gap: 4vw;
+    padding-top: 4.5vw;
+    padding-left:2.7vw ;
+    padding-right: 2.7vw;
+}
+.product-container-second{
+    top:43.6vw;
+    z-index: 1;
+}
+.product-container-third{
+    top:87.2vw;
+    z-index: 2;
+}
+.product-container-forth{
+    top:130.8vw;
+    z-index: 3;
+}
+.product-container-fifth{
+    top:174.4vw;
+    z-index: 4;
+}
+.product-image{
+    width: 31vw;
+}
+
+.product-content-middle-first-header{
+    color:#0F0F10;
+    font-size: 1.3vw;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 500;
+    margin-bottom: 3.4vw;
+}
+
+.product-content-middle-second-header{
+    color:#0F0F10;
+    font-size: 1.25vw;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 400;
+    margin-top: 3.4vw;
+    margin-bottom: 1.7vw;
+}
+.product-content-middle-list{
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+.product-content-middle-list-elem{
+    display: flex;
+    align-items: center;
+    gap: 0.69vw; /* Space between bullet and text */
+    margin-bottom: 0.69vw; /* Space between list items */
+}
+.custom-bullet {
+    width: 0.34vw;  /* Custom width */
+    height: 0.34vw; /* Custom height */
+    background-color: #779FEE; /* Custom color */
+    border-radius: 50%; /* Makes it circular */
+    flex-shrink: 0;
+}
+.product-content-right-list{
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+.product-content-right-list-elem{
+    display: flex;
+    align-items: center;
+    gap: 0.69vw; /* Space between bullet and text */
+    margin-bottom: 2.4vw; /* Space between list items */
+}
+.custom-bullet-second {
+    width: 2.5vw;  /* Custom width */
+    height:0.07vw; /* Custom height */
+    border-top: 0.07vw solid #779FEE;
+    flex-shrink: 0;
 }
