@@ -35,10 +35,14 @@
         </div>
         <div class="learn-more-container">
             <img class="learn-more-arrow-down" src="../assets/images/Arrow_Down.svg">
-            <img class="learn-more-circle" src="../assets/images/Learn_More_Circle.png">
+            {% if page.lang == "en" %}
+                <img class="learn-more-circle" src="../assets/images/Learn_More_Circle.png">
+            {% else %}
+                <img class="learn-more-circle" src="../assets/images/Learn_More_Circle_LV.png">
+            {% endif %}
         </div>
         <div class="products-container">
-            <div class="product-container">
+            <div class="product-container" id="product1">
                 <img src="../assets/images/Product_First.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].first_product_content_middle_first_header }}</p>
@@ -60,7 +64,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="product-container  product-container-second">
+            <div class="product-container" id="product2">
                 <img src="../assets/images/Product_Second.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].second_product_content_middle_first_header}}</p>
@@ -81,7 +85,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="product-container product-container-third">
+            <div class="product-container" id="product3">
                 <img src="../assets/images/Product_Third.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].third_product_content_middle_first_header}}</p>
@@ -101,7 +105,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="product-container product-container-forth">
+            <div class="product-container" id="product4">
                 <img src="../assets/images/Product_Forth.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].forth_product_content_middle_first_header }}</p>
@@ -122,7 +126,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="product-container product-container-fifth">
+            <div class="product-container" id="product5">
                 <img src="../assets/images/Product_Fifth.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].fifth_product_content_middle_first_header }}</p>
@@ -135,7 +139,7 @@
                         <li class="regular-text product-content-middle-list-elem"><span class="custom-bullet"></span>{{ site.data.translations[page.lang].fifth_product_content_middle_list_04 }}</li>
                     </ul>
                 </div>
-                <div class="product-content-right product-container-fifth">
+                <div class="product-content-right">
                     <ul class="product-content-right-list">
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].fifth_product_content_right_list_01 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].fifth_product_content_right_list_02 }}</li>
@@ -144,9 +148,23 @@
                 </div>
             </div>
         </div>
+        <div class="products-bottom-section-container">
+            <img src="../assets/images/Aurora.svg" class="products-bottom-section-image">
+            <div class="products-bottom-section-right-container">
+                <p class="regular-text products-bottom-section-right-text">{{ site.data.translations[page.lang].products-bottom-section-right-text }}</p>
+            </div>
+            <div class="products-bottom-section-left-container">
+                <div class="products-bottom-section-left-container-content">
+                    <p class="products-bottom-section-left-container-content-header">{{ site.data.translations[page.lang].products-bottom-section-left-container-content-header }}</p>
+                    <button class="products-bottom-section-left-container-button"><p class="products-bottom-section-left-container-button-text">{{ site.data.translations[page.lang].products-bottom-section-left-container-button-text }}</p><img class="angled-arrow" ></button>
+                </div>
+            </div>
+        </div>
+      
     </div>
     {% include footer.html %}  <!-- Reusable Footer -->
     {% include loader.html %}
 </body>
 <script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="../assets/scripts/stackingAnim.js"></script>
 </html>
