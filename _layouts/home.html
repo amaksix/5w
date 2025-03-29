@@ -7,17 +7,17 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="../assets/css/general.css">
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/home.css">
-    <link rel="icon" type="image/x-icon" href="../assets/images/32х32.png">
+    <link rel="stylesheet" href="/assets/css/general.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/32х32.png">
     
-    <link rel="icon" href="../assets/images/16х16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/assets/images/16х16.png" sizes="16x16" type="image/png">
     <!-- Larger favicon for high-resolution displays (32x32px) -->
-    <link rel="icon" href="../assets/images/32х32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/images/32х32.png" sizes="32x32" type="image/png">
     <!-- Optional: 48x48px favicon for some browsers or desktop apps -->
-    <link rel="icon" href="../assets/images/48х48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="/assets/images/48х48.png" sizes="48x48" type="image/png">
 </head>
 <body>
 
@@ -30,7 +30,7 @@
         </h1>
         <div class="explore">
             <video class="first-shot-video" autoplay muted loop playsinline>
-                <source src="../assets/video/first-shot.mp4" type="video/mp4">
+                <source src="/assets/video/first-shot.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="darkening-video"></div>
@@ -38,16 +38,24 @@
                 <p class="regular-text overlay-box-text">
                     {{ site.data.translations[page.lang].explore_text }}
                 </p>
-                <button class="overlay-button">
+                {% if page.lang == "lv" %}
+                <button class="overlay-button" onclick="location.href='/5w/lv/products'">
                     <p class="overlay-button-text">{{ site.data.translations[page.lang].explore_button }}</p>
                     <img class="angled-arrow" >
                 </button>
+                {% else %}
+                <button class="overlay-button" onclick="location.href='/5w/en/products'">
+                    <p class="overlay-button-text">{{ site.data.translations[page.lang].explore_button }}</p>
+                    <img class="angled-arrow" >
+                </button>
+                {% endif %}
+                
             </div>
         </div>
         <div class="about-us">
             <div class="about-us-image-container">
-                <img src="../assets/images/Back_Image.png" alt="Back Image" class="about-us-image-back">
-                <img src="../assets/images/Front_Image.png" alt="Front Image" class="about-us-image-front">
+                <img src="/assets/images/Back_Image.png" alt="Back Image" class="about-us-image-back">
+                <img src="/assets/images/Front_Image.png" alt="Front Image" class="about-us-image-front">
             </div>
             <div class="about-us-text-container">
                 <h1>{{ site.data.translations[page.lang].about_us_title }}</h1>
@@ -55,7 +63,7 @@
                     {{ site.data.translations[page.lang].about_us_text }}
                 </p>
                 <div class="link-button-container">
-                    <a class="link-button" href="/{{ page.lang }}/about-us/">
+                    <a class="link-button" href="/5w/{{ page.lang }}/about-us/">
                         {{ site.data.translations[page.lang].about_us_button }}
                     </a>
                     <img class="blue-arrow">
@@ -67,7 +75,7 @@
             <div class="solutions-text-container">
                 <p class="regular-text" style="width: 65vw;">{{ site.data.translations[page.lang].solutions_text}}</p>
                 <div class="link-button-container" style="margin-left: auto;">
-                    <a class="link-button" href="/{{ page.lang }}/products/">
+                    <a class="link-button" href="/5w/{{ page.lang }}/products">
                         {{ site.data.translations[page.lang].products_button }}
                     </a>
                     <img class="blue-arrow">
@@ -166,18 +174,26 @@
                 <p class="regular-text contact-us-text">
                 {{ site.data.translations[page.lang].contact_us_text }}
                 </p>
+                {% if page.lang == "lv" %}
                 <button class="main-contact-us-button">
-                    <p class="main-contact-us-button-text">{{ site.data.translations[page.lang].contact_header}}</p>
-                    <img class="angled-arrow" src="../assets/images/Angled_Arrow_Black.svg">
+                    <p class="main-contact-us-button-text"  onclick="location.href='/5w/lv/contact'">{{ site.data.translations[page.lang].contact_header}}</p>
+                    <img class="angled-arrow" src="/assets/images/Angled_Arrow_Black.svg">
                 </button>
+                {% else %}
+                <button class="main-contact-us-button">
+                    <p class="main-contact-us-button-text"  onclick="location.href='/5w/en/contact'">{{ site.data.translations[page.lang].contact_header}}</p>
+                    <img class="angled-arrow" src="/assets/images/Angled_Arrow_Black.svg">
+                </button>
+                {% endif %}
+            
             </div>
         </div>
     </div>
     {% include footer.html %}  <!-- Reusable Footer -->
     {% include loader.html %}
 </body>
-<script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
-<script type="text/javascript" src="../assets/scripts/solutionsScroll.js"></script>
-<script type="text/javascript" src="../assets/scripts/customScrollBar.js"></script>
-<script type="text/javascript" src="../assets/scripts/sideMoving.js"></script>
+<script type="text/javascript" src="/assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="/assets/scripts/solutionsScroll.js"></script>
+<script type="text/javascript" src="/assets/scripts/customScrollBar.js"></script>
+<script type="text/javascript" src="/assets/scripts/sideMoving.js"></script>
 </html>

@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Light.ttf") format("ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Medium.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contact-us-main-header{
+    margin-top:3.4vw;
+    text-align: center;
+}
+
+.contact-us-first-block{
+    display: grid;
+    grid-template-columns: auto 48.2vw;
+    margin-left: 1.35vw;
+    margin-right: 1.35vw;
+    margin-bottom: 13.8vw;
+    gap:3.75vw;
+}
+.first-block-image-container{
+    border-radius: 1.8vw;
+    overflow: hidden;
+    width:43vw;
+}
+.first-block-image{
+    width:43vw;
+}
+.first-block-form-container{
+
+}
+.first-block-form-header{
+    color: #0F0F10;
+    font-size: 2vw;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+label{
+    color: #0F0F10;
+    font-size: 1.25vw;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 400;
+}
+input{
+    width: 46.1vw;
+    height: 4vw;
+    border-radius: 0.8vw;
+    font-size: 1.25vw;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 300;
+    color: #0F0F10;
+    padding-left: 1.4vw;
+    margin-bottom: 1.7vw;
+    outline: none; /* Remove default browser outline */
+    border: 0.07vw solid #9B9DA0;  
+    background-color: transparent;
+}
+input[type=text]:focus{
+    border: 0.07vw solid #535458;     /* oranges! yey */
+  }
+input::placeholder {
+    color: #9B9DA0; /* Placeholder text color */
+}
+.message-input-field:focus{
+    border: 0.07vw solid #535458;
+}
+.message-input-field{
+    background-color: transparent;
+    border: 0.07vw solid #9B9DA0;  
+    outline: none; /* Remove default browser outline */
+    height: 12.5vw;
+    text-align: start;
+    width: 46.1vw;
+    height: 12.5vw;
+    border-radius: 0.8vw;
+    font-size: 1.25vw;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 300;
+    color: #0F0F10;
+    padding-left: 1.4vw;
+    margin-bottom: 2.7vw;
+    display: flex;
+    align-items: flex-start; /* Aligns text to the top */
+    padding-top: 1.2vw;
+    resize: none;
+}
+
+.message-button{
+    width:47.5vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    background-color: #0F0F10;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.4vw;
+    color:#F0F0F2;
+    align-content: center;
+    margin-top: 2vw;
+}
+.message-button > .angled-arrow
+{
+    width: 1vw;
+    height: 1vw;
+    content:url("../images/Angled_Arrow.svg");
+    margin-top: 0.25vw;
+}
+.message-button:hover > .angled-arrow
+{
+    content:url("../images/Angled_Arrow_Black.svg");
+}
+.message-button:hover{
+    background-color: transparent;
+    color:#0F0F10;
+}
+.message-button-text{
+    text-align: right;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+
+
+
+.contact-us-second-block{
+    background-color: #E1E2E5;
+    height: 27.7vw;
+    padding-left: 10.7vw;
+    padding-right: 10.7vw;
+    padding-top: 7vw;
+    margin-bottom: 13.8vw;
+}
+.contact-us-second-block{
+    display: grid;
+    grid-template-columns: 27.7vw 27.7vw auto;
+}
+.second-block-header{
+    color: #0F0F10;
+    font-size: 2vw;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 3.5vw;
+}
+.gap-needed{
+    margin-bottom: 2vw;
+}

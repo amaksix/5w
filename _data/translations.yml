@@ -97,6 +97,21 @@ en:
   products-bottom-section-left-container-content-header: "Transform Your Business with Cutting-Edge Finance Solutions Today"
   products-bottom-section-left-container-button-text: "Get Started"
 
+  contact_us_header: "Contact Us"
+
+  contact_us_second_block_first_section_header: "Company"
+  contact_us_second_block_first_section_text02: "Monday - Friday"
+
+  contact_us_second_block_second_section_header: "Reach Out"
+  contact_us_second_block_third_section_header: "Social"
+
+  first-block-form-header: "Have questions or want to learn more about how we can help? Get in touch!"
+  name: "Name"
+  email: "Email address"
+  message": "Message"
+  send_message: "SendMessage"
+
+
 lv:
   main_header_first: "KUR FINANSES SASTOPAS AR"
   main_header_second: "INOVĀCIJĀM"
@@ -200,3 +215,17 @@ lv:
   products-bottom-section-right-text: "Mūsu risinājumi ir izstrādāti, lai nodrošinātu izmērāmu rezultātu un veicinātu izaugsmi. Sāciet savu ceļojumu jau tagad un piedzīvojiet tehnoloģiju nākotni."
   products-bottom-section-left-container-content-header: "Pārveidojiet savu biznesu ar progresīviem finanšu risinājumiem jau šodien"
   products-bottom-section-left-container-button-text: "Sākt"
+
+  contact_us_header: "Sazinieties ar Mums"
+
+  contact_us_second_block_first_section_header: "Uzņēmums"
+  contact_us_second_block_first_section_text02: "Pirmdiena - Piektdiena"
+
+  contact_us_second_block_second_section_header: "Sazinieties ar mums"
+  contact_us_second_block_third_section_header: "Sociālie tīkli"
+
+  first-block-form-header: "Vai jums ir jautājumi un vēlaties uzzināt vairāk par to? Sazinieties ar mums!"
+  name: "Vārds"
+  email: "E-pasta adrese"
+  message: "Ziņojums"
+  send_message: "Sūtīt ziņojumu"
