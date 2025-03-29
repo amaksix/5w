@@ -7,17 +7,17 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="../assets/css/general.css">
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/contact.css">
-    <link rel="icon" type="image/x-icon" href="../assets/images/32х32.png">
+    <link rel="stylesheet" href="/assets/css/general.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/32х32.png">
 
-    <link rel="icon" href="../assets/images/16х16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/assets/images/16х16.png" sizes="16x16" type="image/png">
     <!-- Larger favicon for high-resolution displays (32x32px) -->
-    <link rel="icon" href="../assets/images/32х32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/images/32х32.png" sizes="32x32" type="image/png">
     <!-- Optional: 48x48px favicon for some browsers or desktop apps -->
-    <link rel="icon" href="../assets/images/48х48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="/assets/images/48х48.png" sizes="48x48" type="image/png">
 </head>
 <body>
     {% include header.html %}  <!-- Reusable Header -->
@@ -26,7 +26,7 @@
         <h1 class="contact-us-main-header">{{ site.data.translations[page.lang].contact_us_header }}</h1>
         <div class="contact-us-first-block">
             <div class="first-block-image-container">
-                <img class="first-block-image" src="../assets/images/Contact_Image.png"></img>
+                <img class="first-block-image" src="/assets/images/Contact_Image.png"></img>
             </div>
             <div class="first-block-form-container">
                 <p class="first-block-form-header">{{ site.data.translations[page.lang].first-block-form-header }}</p>
@@ -62,5 +62,5 @@
     {% include footer.html %}  <!-- Reusable Footer -->
     {% include loader.html %}
 </body>
-<script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="/assets/scripts/languageButton.js"></script>
 </html>
