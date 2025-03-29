@@ -7,17 +7,17 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/general.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/products.css">
-    <link rel="icon" type="image/x-icon" href="/assets/images/32х32.png">
+    <link rel="stylesheet" href="../assets/css/general.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/32х32.png">
     
-    <link rel="icon" href="/assets/images/16х16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="../assets/images/16х16.png" sizes="16x16" type="image/png">
     <!-- Larger favicon for high-resolution displays (32x32px) -->
-    <link rel="icon" href="/assets/images/32х32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="../assets/images/32х32.png" sizes="32x32" type="image/png">
     <!-- Optional: 48x48px favicon for some browsers or desktop apps -->
-    <link rel="icon" href="/assets/images/48х48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="../assets/images/48х48.png" sizes="48x48" type="image/png">
 </head>
 <body>
     {% include header.html %}  <!-- Reusable Header -->
@@ -25,25 +25,25 @@
         <h1 class="products-main-header">{{ site.data.translations[page.lang].products_header }}</h1>
         <div class="products-description">
             <div class="products-description-left-container">
-                <img class="products-description-image" src="/assets/images/Products_Left_Image.png">
+                <img class="products-description-image" src="../assets/images/Products_Left_Image.png">
                 <div class="products-description-left-container-content">
                     <p class="products-description-content-header">{{ site.data.translations[page.lang].products_description_header }}</p>
                     <p class="regular-text products-description-content-text">{{ site.data.translations[page.lang].products_description_text }}</p>
                 </div>
             </div>
-            <img class="products-description-image" src="/assets/images/Products_Right_Image.png">
+            <img class="products-description-image" src="../assets/images/Products_Right_Image.png">
         </div>
         <div class="learn-more-container">
-            <img class="learn-more-arrow-down" src="/assets/images/Arrow_Down.svg">
+            <img class="learn-more-arrow-down" src="../assets/images/Arrow_Down.svg">
             {% if page.lang == "en" %}
-                <img class="learn-more-circle" src="/assets/images/Learn_More_Circle.png">
+                <img class="learn-more-circle" src="../assets/images/Learn_More_Circle.png">
             {% else %}
-                <img class="learn-more-circle" src="/assets/images/Learn_More_Circle_LV.png">
+                <img class="learn-more-circle" src="../assets/images/Learn_More_Circle_LV.png">
             {% endif %}
         </div>
         <div class="products-container">
             <div class="product-container" id="product1">
-                <img src="/assets/images/Product_First.png" class="product-image">
+                <img src="../assets/images/Product_First.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].first_product_content_middle_first_header }}</p>
                     <p class="regular-text">{{ site.data.translations[page.lang].first_product_content_middle_first_text }}</p>
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="product-container" id="product2">
-                <img src="/assets/images/Product_Second.png" class="product-image">
+                <img src="../assets/images/Product_Second.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].second_product_content_middle_first_header}}</p>
                     <p class="regular-text">{{ site.data.translations[page.lang].second_product_content_middle_first_text }}</p>
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="product-container" id="product3">
-                <img src="/assets/images/Product_Third.png" class="product-image">
+                <img src="../assets/images/Product_Third.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].third_product_content_middle_first_header}}</p>
                     <p class="regular-text">{{ site.data.translations[page.lang].third_product_content_middle_first_text }}</p>
@@ -106,7 +106,7 @@
                 </div>
             </div>
             <div class="product-container" id="product4">
-                <img src="/assets/images/Product_Forth.png" class="product-image">
+                <img src="../assets/images/Product_Forth.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].forth_product_content_middle_first_header }}</p>
                     <p class="regular-text">{{ site.data.translations[page.lang].forth_product_content_middle_first_text }}</p>
@@ -127,7 +127,7 @@
                 </div>
             </div>
             <div class="product-container" id="product5">
-                <img src="/assets/images/Product_Fifth.png" class="product-image">
+                <img src="../assets/images/Product_Fifth.png" class="product-image">
                 <div class="product-content-middle">
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].fifth_product_content_middle_first_header }}</p>
                     <p class="regular-text">{{ site.data.translations[page.lang].fifth_product_content_middle_first_text }}</p>
@@ -149,7 +149,7 @@
             </div>
         </div>
         <div class="products-bottom-section-container">
-            <img src="/assets/images/Aurora.svg" class="products-bottom-section-image">
+            <img src="../assets/images/Aurora.svg" class="products-bottom-section-image">
             <div class="products-bottom-section-right-container">
                 <p class="regular-text products-bottom-section-right-text">{{ site.data.translations[page.lang].products-bottom-section-right-text }}</p>
             </div>
@@ -169,6 +169,6 @@
     {% include footer.html %}  <!-- Reusable Footer -->
     {% include loader.html %}
 </body>
-<script type="text/javascript" src="/assets/scripts/languageButton.js"></script>
-<script type="text/javascript" src="/assets/scripts/stackingAnim.js"></script>
+<script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="../assets/scripts/stackingAnim.js"></script>
 </html>

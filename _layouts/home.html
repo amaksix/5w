@@ -7,17 +7,17 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/general.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/home.css">
-    <link rel="icon" type="image/x-icon" href="/assets/images/32х32.png">
+    <link rel="stylesheet" href="../assets/css/general.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/32х32.png">
     
-    <link rel="icon" href="/assets/images/16х16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="../assets/images/16х16.png" sizes="16x16" type="image/png">
     <!-- Larger favicon for high-resolution displays (32x32px) -->
-    <link rel="icon" href="/assets/images/32х32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="../assets/images/32х32.png" sizes="32x32" type="image/png">
     <!-- Optional: 48x48px favicon for some browsers or desktop apps -->
-    <link rel="icon" href="/assets/images/48х48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="../assets/images/48х48.png" sizes="48x48" type="image/png">
 </head>
 <body>
 
@@ -30,7 +30,7 @@
         </h1>
         <div class="explore">
             <video class="first-shot-video" autoplay muted loop playsinline>
-                <source src="/assets/video/first-shot.mp4" type="video/mp4">
+                <source src="../assets/video/first-shot.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="darkening-video"></div>
@@ -54,8 +54,8 @@
         </div>
         <div class="about-us">
             <div class="about-us-image-container">
-                <img src="/assets/images/Back_Image.png" alt="Back Image" class="about-us-image-back">
-                <img src="/assets/images/Front_Image.png" alt="Front Image" class="about-us-image-front">
+                <img src="../assets/images/Back_Image.png" alt="Back Image" class="about-us-image-back">
+                <img src="../assets/images/Front_Image.png" alt="Front Image" class="about-us-image-front">
             </div>
             <div class="about-us-text-container">
                 <h1>{{ site.data.translations[page.lang].about_us_title }}</h1>
@@ -177,12 +177,12 @@
                 {% if page.lang == "lv" %}
                 <button class="main-contact-us-button">
                     <p class="main-contact-us-button-text"  onclick="location.href='/5w/lv/contact'">{{ site.data.translations[page.lang].contact_header}}</p>
-                    <img class="angled-arrow" src="/assets/images/Angled_Arrow_Black.svg">
+                    <img class="angled-arrow" src="../assets/images/Angled_Arrow_Black.svg">
                 </button>
                 {% else %}
                 <button class="main-contact-us-button">
                     <p class="main-contact-us-button-text"  onclick="location.href='/5w/en/contact'">{{ site.data.translations[page.lang].contact_header}}</p>
-                    <img class="angled-arrow" src="/assets/images/Angled_Arrow_Black.svg">
+                    <img class="angled-arrow" src="../assets/images/Angled_Arrow_Black.svg">
                 </button>
                 {% endif %}
             
@@ -192,8 +192,8 @@
     {% include footer.html %}  <!-- Reusable Footer -->
     {% include loader.html %}
 </body>
-<script type="text/javascript" src="/assets/scripts/languageButton.js"></script>
-<script type="text/javascript" src="/assets/scripts/solutionsScroll.js"></script>
-<script type="text/javascript" src="/assets/scripts/customScrollBar.js"></script>
-<script type="text/javascript" src="/assets/scripts/sideMoving.js"></script>
+<script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="../assets/scripts/solutionsScroll.js"></script>
+<script type="text/javascript" src="../assets/scripts/customScrollBar.js"></script>
+<script type="text/javascript" src="../assets/scripts/sideMoving.js"></script>
 </html>
