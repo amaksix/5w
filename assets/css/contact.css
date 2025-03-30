@@ -181,5 +181,5 @@ input::placeholder {
 .link-button:hover{
     color: #0F0F10;
     text-decoration: underline;
-    text-underline-offset: 1vw; /* Adjust this value as needed */
+    text-underline-offset: 0.75vw; /* Adjust this value as needed */
 }
