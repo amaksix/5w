@@ -11,6 +11,7 @@ en:
   contact_header: 'Contact Us'
   contact_us_text: "Take the next step toward financial excellence. Contact us today for a personalized consultation."
   products_button: "Explore All Solutions"
+  
   solutions_element_first_header: "Budgeting & Planning"
   solutions_element_second_header: "Financial Consolidation"
   solutions_element_third_header: "Financial Valuation"
@@ -21,6 +22,7 @@ en:
   solutions_element_third_text: "Accurate and reliable Financial Valuation services to support mergers, acquisitions, strategic planning, and investment decisions."
   solutions_element_forth_text: "Achieve your business objectives with our Project Management services—ensuring projects are delivered on time, within budget, and aligned with your strategic goals."
   solutions_element_fifth_text: "Proactive threat detection and neutralization to keep your business secure."
+  
   phases_header: 'Elevate Your Business with Our <span class="highlight-text">Five-Phase</span> Approach'
   phases_text: 'Explore our five-phase approach to see how we drive growth and efficiency at every step'
   phase: "Phase"
@@ -115,6 +117,35 @@ en:
   popup_text: "Your message is received, we will get in touch with you within 1-2 workdays."
   popup_button: "Close"
 
+  aboutus_header: "About Us"
+  aboutus_first_text: "We are a team of financial experts dedicated to helping businesses streamline operations and achieve their goals. With deep expertise in budgeting, consolidation, valuation, and project management, we deliver customized solutions for every client."
+  aboutus_second_header: 'Your Success - <span class="highlight-text">Our Mission</span>'
+  aboutus_second_text: "To empower businesses with tools and insights that drive growth and efficiency."
+  
+  aboutus_third_header: "Our Approach"
+  aboutus_third_text: "At 5W, we take a consultative approach. We don’t just offer services—we identify your specific challenges and connect you with the best-in-class specialists who can solve them. Here’s how we do it:"
+
+  approach_block_header_01: "Needs Assessment"
+  approach_block_text_01: "We take time to understand your business, goals, and pain points."
+  approach_block_header_02: "Expert Matching"
+  approach_block_text_02: "We carefully select the best expert for your project from our extensive network."
+  approach_block_header_03: "Seamless Execution"
+  approach_block_text_03: "Our experts work with you to implement solutions, ensuring high-quality results."
+  approach_block_header_04: "Ongoing Support"
+  approach_block_text_04: "We remain by your side, offering continuous guidance and assistance."
+
+  aboutus_forth_block_header: '<span class="highlight-text">Why</span> Choose Us'
+
+  forth_block_content_header_01: "Access to Top Experts"
+  forth_block_content_text_01: "Our network consists of leading professionals with extensive experience and industry recognition."
+  forth_block_content_header_02: "Tailored Solutions"
+  forth_block_content_text_02: "Every business is unique. We match you with the right expert to meet your specific needs."
+  forth_block_content_header_03: "Trusted Partnerships"
+  forth_block_content_text_03: "We’ve built long-term relationships with experts who are proven to deliver high-quality services."
+  forth_block_content_header_04: "Comprehensive Services"
+  forth_block_content_text_04: "From budgeting and planning to valuation and project management, we cover all aspects of business transformation."
+  forth_block_content_header_05: "Client-Centric Focus"
+  forth_block_content_text_05: "Your success is our priority. We’re committed to delivering measurable results and exceeding expectations."
 
 lv:
   main_header_first: "KUR FINANSES SASTOPAS AR"
@@ -129,6 +160,7 @@ lv:
   contact_header: 'Sazinieties ar Mums'
   contact_us_text: 'Speriet nākamo soli pretī finanšu izcilībai. Sazinieties ar mums jau šodien, lai saņemtu personalizētu konsultāciju.'
   products_button: "Izpētīt Visus Risinājumus"
+  
   solutions_element_first_header: "Budžeta Plānošana"
   solutions_element_second_header: "Finanšu Konsolidācija"
   solutions_element_third_header: "Finanšu Novērtēšana"
@@ -139,6 +171,7 @@ lv:
   solutions_element_third_text: "Precīzi un uzticami finanšu novērtēšanas pakalpojumi, kas atbalsta apvienošanos, pārņemšanu, stratēģisko plānošanu un investīciju lēmumus."
   solutions_element_forth_text: "Sasniedziet savus biznesa mērķus ar mūsu projektu vadības pakalpojumiem – nodrošinot, ka projekti tiek īstenoti laikā, ietverot budžetu un saskaņoti ar jūsu stratēģiskajiem mērķiem."
   solutions_element_fifth_text: "Proaktīva draudu noteikšana un neitralizācija, lai nodrošinātu jūsu uzņēmuma drošību."
+  
   phases_header: 'Paceliet savu biznesu augstāk ar mūsu <span class="highlight-text">piecu posmu</span> pieeju'
   phases_text: 'Izpētiet mūsu piecu posmu pieeju, lai redzētu, kā mēs veicinām izaugsmi un efektivitāti ik uz soļa.'
   "phase": "Posms"
@@ -237,3 +270,33 @@ lv:
   popup_header: "Paldies!"
   popup_text: "Jūsu ziņojums ir saņemts, mēs ar jums sazināsimies 1-2 darba dienu laikā."
   popup_button: "Aizvērt"
+
+  aboutus_header: "Par Mums"
+  aboutus_first_text: "Mēs esam finanšu ekspertu komanda, kas apņēmusies palīdzēt uzņēmumiem optimizēt darbību un sasniegt savus mērķus. Ar padziļinātām zināšanām budžeta plānošanā, konsolidācijā, novērtēšanā un projektu vadībā mēs piedāvājam pielāgotus risinājumus katram klientam."
+  aboutus_second_header: 'Jūsu Panākumi - <span class="highlight-text">Mūsu Misija</span>'
+  aboutus_second_text: "Nodrošināt uzņēmumus ar rīkiem un ieskatiem, kas veicina izaugsmi un efektivitāti."
+
+  aboutus_third_header: "Mūsu Pieeja"
+  aboutus_third_text: "5W mēs izmantojam konsultatīvu pieeju. Mēs ne tikai piedāvājam pakalpojumus – mēs identificējam jūsu konkrētās problēmas un savienojam jūs ar augstākās klases speciālistiem, kuri tās var atrisināt. Lūk, kā mēs to darām:"
+
+  approach_block_header_01: "Vajadzību Novērtējums"
+  approach_block_text_01: "Mēs rūpīgi izprotam jūsu biznesu, mērķus un problēmpunktus."
+  approach_block_header_02: "Ekspertu Piemeklēšana"
+  approach_block_text_02: "Mēs rūpīgi izvēlamies labāko ekspertu jūsu projektam no mūsu plašā tīkla."
+  approach_block_header_03: "Nevainojama Īstenošana"
+  approach_block_text_03: "Mūsu eksperti sadarbojas ar jums, lai ieviestu risinājumus un nodrošinātu augstas kvalitātes rezultātus."
+  approach_block_header_04: "Nepārtraukts Atbalsts"
+  approach_block_text_04: "Mēs esam jums līdzās, piedāvājot nepārtrauktu vadību un palīdzību."
+
+  aboutus_forth_block_header: '<span class="highlight-text">Kāpēc</span> Izvēlēties Mūs'
+
+  forth_block_content_header_01: "Piekļuve Labākajiem Ekspertiem"
+  forth_block_content_text_01: "Mūsu tīkls sastāv no vadošajiem profesionāļiem ar plašu pieredzi un nozares atzinību."
+  forth_block_content_header_02: "Pielāgoti Risinājumi"
+  forth_block_content_text_02: "Katrs uzņēmums ir unikāls. Mēs piemeklējam jums piemērotāko ekspertu atbilstoši jūsu specifiskajām vajadzībām."
+  forth_block_content_header_03: "Uzticamas Partnerattiecības"
+  forth_block_content_text_03: "Mēs esam izveidojuši ilgtermiņa attiecības ar ekspertiem, kuri garantē augstas kvalitātes pakalpojumus."
+  forth_block_content_header_04: "Visaptveroši Pakalpojumi"
+  forth_block_content_text_04: "No budžeta plānošanas un stratēģiskās plānošanas līdz vērtēšanai un projektu vadībai – mēs aptveram visus biznesa pārveides aspektus."
+  forth_block_content_header_05: "Klientu Orientācija"
+  forth_block_content_text_05: "Jūsu panākumi ir mūsu prioritāte. Mēs esam apņēmušies nodrošināt izmērāmus rezultātus un pārsniegt jūsu gaidas."

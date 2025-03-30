@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+.aboutus-first-container{
+    text-align: center;
+    margin: auto;
+    width: 62.5vw;
+    margin-bottom: 3.8vw;
+}
+
+.aboutus-first-image{
+    width: 100%;
+    margin-bottom: 3.8vw;
+}
+.aboutus-second-container{
+    margin-left: 1.35vw;
+    margin-right: 1.35vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 23.8vw;
+    margin-bottom: 13.8vw;
+}
+.aboutus-third-block-container{
+    margin-left: 1.35vw;
+    margin-right: 1.35vw;
+    text-align: center;
+}
+
+.aboutus-third-block-text{
+    width: 62.7vw;
+    margin: auto;
+    margin-top: 4.5vw;
+}
+.approach-bloks-container{
+    margin-top: 4.5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:0.7vw;
+}
+.approach-block-container{
+    border-radius: 1.4vw;
+    background-color: transparent;
+    box-shadow: 0  0.13vw 0.2vw rgba(15, 15, 16,0.15);
+    height: 16.5vw;
+    margin-bottom: 13.8vw;
+}
+.approach-block-content{
+    width: 17vw;
+    margin: auto;
+    margin-top: 2.7vw;
+    margin-bottom: 2.7vw;
+    text-align: left;
+}
+.approach-block-number{
+    font-size: 1.4vw;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 500;
+    color: #779FEE;
+    margin-bottom: 1.3vw;
+}
+.approach-block-header{
+    font-size: 1.4vw;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 500;
+    color: #0F0F10;
+    margin-bottom: 1.3vw;
+}
+.approach-block-text{
+    color:#535458;
+}
+.aboutus-forth-block-container{
+    margin-left: 1.35vw;
+    margin-right: 1.35vw;
+}
+.aboutus-forth-block-content{   
+    display: grid;
+    grid-template-columns: auto 31.7vw;
+    gap:3.2vw;
+    margin-bottom: 13.8vw;
+
+}
+.aboutus-forth-block-image-container{
+    width:31.7vw;
+    height: 47.5vw;
+    border-radius:1.5vw;
+    overflow: hidden;
+}
+.aboutus-forth-block-image{
+    width:31.7vw;
+    height: 47.5vw;
+}
+
+.forth-block-content-container {
+    display: grid;
+    grid-template-columns: auto 27.5vw;
+    gap: 12vw;
+    height: 9.4vw;
+    border-top: 0.13vw solid #E1E2E5;
+    align-items: center; /* Center child elements vertically */
+}
+.forth-block-content-container-last{
+    border-bottom: 0.13vw solid #E1E2E5;
+}
+.forth-block-content-header{
+    font-size: 1.4vw;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 500;
+    color: #0F0F10;
+    margin-left: 3.1vw;
+    
+}
+.forth-block-content-text{
+    color: #535458;
+    margin-right: 3.1vw;
+}
