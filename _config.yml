@@ -1,6 +1,6 @@
 baseurl: ""  
 permalink: pretty  
-url: "https://yourwebsite.com"  # Change to your domain
+url: "https://amaksix.github.io/"  # Change to your domain
 plugins:
   - jekyll-sitemap  # Auto-generates sitemap.xml
 github: [metadata]
