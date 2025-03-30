@@ -92,7 +92,7 @@
     top: 2.5vw;
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
-    box-shadow: 0 -0.13vw 0.1vw rgba(15, 15, 16, 0.15);
+    border-top: 0.13vw solid #E1E2E5;
     height: 39vw;
     width: 94.5vw;
     display: grid;
@@ -124,7 +124,7 @@
 
 .product-content-middle-first-header{
     color:#0F0F10;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     font-family: "Mulish", Arial, sans-serif;
     font-weight: 500;
     margin-bottom: 3.4vw;
