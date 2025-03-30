@@ -201,8 +201,7 @@ input::placeholder {
 
 .popup-content-container {
     background: #F0F0F2;
-    padding: 20px;
-    border-radius: 10px;
+    border-radius: 1.8vw;
     text-align: center;
     width: 46.8vw; /* Adjust width */
     height: 23.6vw;
