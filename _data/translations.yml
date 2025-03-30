@@ -111,6 +111,10 @@ en:
   message: "Message"
   send_message: "Send Message"
 
+  popup_header: "Thank You!"
+  popup_text: "Your message is received, we will get in touch with you within 1-2 workdays."
+  popup_button: "Close"
+
 
 lv:
   main_header_first: "KUR FINANSES SASTOPAS AR"
@@ -229,3 +233,7 @@ lv:
   email: "E-pasta Adrese"
   message: "Ziņojums"
   send_message: "Sūtīt Ziņojumu"
+
+  popup_header: "Paldies!"
+  popup_text: "Jūsu ziņojums ir saņemts, mēs ar jums sazināsimies 1-2 darba dienu laikā."
+  popup_button: "Aizvērt"

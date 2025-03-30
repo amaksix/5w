@@ -36,7 +36,7 @@
                 <input type="text" id="email" name="email" placeholder="example@mail.com">
                 <label for="message">{{ site.data.translations[page.lang].message }}</label>
                 <textarea class="message-input-field" type="text" id="message" name="message" placeholder="your text"></textarea>
-                <button  class="message-button" ><p class="message-button-text">{{ site.data.translations[page.lang].send_message }}</p><img class="angled-arrow" ></button>
+                <button  class="message-button" id="openPopup" ><p class="message-button-text">{{ site.data.translations[page.lang].send_message }}</p><img class="angled-arrow" ></button>
             </div>
         </div>
         <div class="contact-us-second-block">
@@ -57,10 +57,21 @@
                 <a class="regular-text link-button" >LinkedIn</a>
             </div>
         </div>
+           <!-- Popup Dialog -->
+        <div id="popup" class="popup">
+            <div class="popup-content-container">
+                <div class="popup-content">
+                    <p class="popup-header">{{ site.data.translations[page.lang].popup_header }}</p>
+                    <p class="regular-text">{{ site.data.translations[page.lang].popup_text }}</p>
+                    <button class="close-popup-button" id="closePopup">{{ site.data.translations[page.lang].popup_button }}</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     {% include footer.html %}  <!-- Reusable Footer -->
     {% include loader.html %}
 </body>
 <script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="../assets/scripts/openPopUp.js"></script>
 </html>
