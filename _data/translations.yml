@@ -107,7 +107,7 @@ en:
 
   first-block-form-header: "Have questions or want to learn more about how we can help? Get in touch!"
   name: "Name"
-  email: "Email address"
+  email: "Email Address"
   message: "Message"
   send_message: "Send Message"
 
@@ -226,6 +226,6 @@ lv:
 
   first-block-form-header: "Vai jums ir jautājumi un vēlaties uzzināt vairāk par to? Sazinieties ar mums!"
   name: "Vārds"
-  email: "E-pasta adrese"
+  email: "E-pasta Adrese"
   message: "Ziņojums"
-  send_message: "Sūtīt ziņojumu"
+  send_message: "Sūtīt Ziņojumu"
