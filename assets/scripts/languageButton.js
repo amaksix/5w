@@ -1,8 +1,8 @@
 var isClicked= false;
 const button = document.getElementById('languages-button');
 const image = document.getElementById('arrow');
-const originalSrc = '/assets/images/Arrow_Bottom.svg';
-const clickSrc = '/assets/images/Arrow_Top.svg';
+const originalSrc = '../assets/images/Arrow_Bottom.svg';
+const clickSrc = '../assets/images/Arrow_Top.svg';
 
 const languagesDropdown = document.getElementById('languages-dropdown');
 
