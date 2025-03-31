@@ -36,7 +36,7 @@ function animateText(text, container) {
             setTimeout(() => {
                 textSpan.style.opacity = 1;
                 textSpan.style.transform = 'translateY(0)';
-            }, globalIndex * 400);
+            }, globalIndex * 300);
             
             globalIndex++; // Increment global index for consistency
             node.replaceWith(textSpan);
