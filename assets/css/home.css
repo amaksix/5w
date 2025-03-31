@@ -138,8 +138,16 @@ html, body {
     position: relative;
     margin-top: -6vw;
 }
-.about-us-image-container img {
+.about-us-image-container > .about-us-image {
     position: absolute;
+    width: 34vw; /* Ensure both images are the same size */
+    height: 33vw;
+}
+.about-us-image{
+    border-radius: 1.8vw;
+    overflow: hidden;
+}
+.about-us-image > img{
     width: 34vw; /* Ensure both images are the same size */
     height: 33vw;
 }

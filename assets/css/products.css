@@ -105,7 +105,11 @@
     transition: z-index 0.3s ease-out;
     background-color: #F0F0F2;
 }
-
+.product-image-container{
+    overflow: hidden;
+    border-radius: 1.8vw;
+    height: 34.7vw;
+}
 #product2 {
     z-index: 1;
 }
@@ -222,23 +226,27 @@
     font-weight: 700;
 }
 .products-bottom-section-left-container-button{
-    width:10.41vw;
-    height: 3.5vw;
-    border-radius: 1vw;
+    margin-top: 3.4vw;
     background-color: #0F0F10;
+    border: solid;
+    border-width: 0.13vw;
+    border-color: #0F0F10;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 0.4vw;
+    gap: 0.5vw;
+    border-radius: 0.9vw;
+    height:3vw;
+    padding: 1.7vw;
+    padding-top: 0.9vw;
+    padding-bottom: 0.8vw;
+    line-height: 1vw;
     color:#F0F0F2;
-    align-content: center;
-    margin-top: 2vw;
 }
 .products-bottom-section-left-container-button > .angled-arrow
 {
     width: 1vw;
     height: 1vw;
     content:url("../images/Angled_Arrow.svg");
-    margin-top: 0.25vw;
 }
 .products-bottom-section-left-container-button:hover > .angled-arrow
 {
