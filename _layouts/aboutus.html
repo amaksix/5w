@@ -23,16 +23,16 @@
     {% include header.html %}  <!-- Reusable Header -->
     <div>
         <div class="aboutus-first-container">
-            <h1>{{ site.data.translations[page.lang].aboutus_header}}</h1>
+            <h1 id="header-01">{{ site.data.translations[page.lang].aboutus_header}}</h1>
             <p class="regular-text">{{ site.data.translations[page.lang].aboutus_first_text}}</p>
         </div>
         <img class="aboutus-first-image" src="../assets/images/Aboutus_main.jpg">
         <div class="aboutus-second-container">
-            <h1 style="margin: 0;">{{ site.data.translations[page.lang].aboutus_second_header}}</h1>
+            <h1 style="margin: 0;" id="header-02">{{ site.data.translations[page.lang].aboutus_second_header}}</h1>
             <p class="regular-text">{{ site.data.translations[page.lang].aboutus_second_text}}</p>
         </div>
         <div class="aboutus-third-block-container">
-            <h1 style="margin: 0;">{{ site.data.translations[page.lang].aboutus_third_header}}</h1>
+            <h1 style="margin: 0;" id="header-03">{{ site.data.translations[page.lang].aboutus_third_header}}</h1>
             <p class="regular-text aboutus-third-block-text">{{ site.data.translations[page.lang].aboutus_third_text}}</p>
             <div class="approach-bloks-container">
                 <div class="approach-block-container">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="aboutus-forth-block-container">
-            <h1 class="aboutus-forth-block-header">{{ site.data.translations[page.lang].aboutus_forth_block_header}}</h1>
+            <h1 class="aboutus-forth-block-header" id="header-04">{{ site.data.translations[page.lang].aboutus_forth_block_header}}</h1>
             <div class="aboutus-forth-block-content">
                 <div class="aboutus-forth-block-left-side-container">
                     <div class="forth-block-content-container" >
@@ -101,4 +101,5 @@
     {% include loader.html %}
 </body>
 <script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="../assets/scripts/movingTextUpAnim.js"></script>
 </html>

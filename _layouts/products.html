@@ -22,7 +22,7 @@
 <body>
     {% include header.html %}  <!-- Reusable Header -->
     <div class="main">
-        <h1 class="products-main-header">{{ site.data.translations[page.lang].products_header }}</h1>
+        <h1 class="products-main-header" id="header-01">{{ site.data.translations[page.lang].products_header }}</h1>
         <div class="products-description">
             <div class="products-description-left-container">
                 <img class="products-description-image" src="../assets/images/Products_Left_Image.png">
@@ -179,4 +179,5 @@
 </body>
 <script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
 <script type="text/javascript" src="../assets/scripts/stackingAnim.js"></script>
+<script type="text/javascript" src="../assets/scripts/movingTextUpAnim.js"></script>
 </html>

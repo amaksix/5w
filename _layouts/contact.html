@@ -23,10 +23,10 @@
     {% include header.html %}  <!-- Reusable Header -->
 
     <div>
-        <h1 class="contact-us-main-header">{{ site.data.translations[page.lang].contact_us_header }}</h1>
+        <h1 class="contact-us-main-header" id="header-01">{{ site.data.translations[page.lang].contact_us_header }}</h1>
         <div class="contact-us-first-block">
             <div class="first-block-image-container">
-                <img class="first-block-image" src="../assets/images/Contact_Image.png"></img>
+                <img class="first-block-image" src="../assets/images/Contact_Image.jpg"></img>
             </div>
             <div class="first-block-form-container">
                 <p class="first-block-form-header">{{ site.data.translations[page.lang].first-block-form-header }}</p>
@@ -74,4 +74,5 @@
 </body>
 <script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
 <script type="text/javascript" src="../assets/scripts/openPopUp.js"></script>
+<script type="text/javascript" src="../assets/scripts/movingTextUpAnim.js"></script>
 </html>

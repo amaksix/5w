@@ -24,7 +24,7 @@
     {% include header.html %}  <!-- Reusable Header -->
 
     <div class="main">
-        <h1 class="main-header">
+        <h1 class="main-header" id="header-04">
             <span class="header-first-line">{{ site.data.translations[page.lang].main_header_first }}</span>
             <span class="header-second-line">{{ site.data.translations[page.lang].main_header_second }}</span>
         </h1>
@@ -63,7 +63,7 @@
                 
             </div>
             <div class="about-us-text-container">
-                <h1>{{ site.data.translations[page.lang].about_us_title }}</h1>
+                <h1 id="header-01">{{ site.data.translations[page.lang].about_us_title }}</h1>
                 <p class="regular-text about-us-text">
                     {{ site.data.translations[page.lang].about_us_text }}
                 </p>
@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="solutions">
-            <h1 style="width: 71vw;"> {{ site.data.translations[page.lang].solutions_header}}</h1>
+            <h1 style="width: 71vw;" id="header-02"> {{ site.data.translations[page.lang].solutions_header}}</h1>
             <div class="solutions-text-container">
                 <p class="regular-text" style="width: 65vw;">{{ site.data.translations[page.lang].solutions_text}}</p>
                 <div class="link-button-container" style="margin-left: auto;">
@@ -115,7 +115,7 @@
             </div>
         </div>
         <div class="phases">
-                <h1 class="phases-header">{{ site.data.translations[page.lang].phases_header}}</h1>
+                <h1 class="phases-header" id="header-03">{{ site.data.translations[page.lang].phases_header}}</h1>
                 <p class="regular-text phases-text" >{{ site.data.translations[page.lang].phases_text}}</p>
                 <div class="scroll-wrapper">
                     <!-- Scrollable Content Container -->
@@ -174,7 +174,7 @@
                 </div>
         </div>
         <div class="contact">
-            <div class="contact-left-container"><h1 class="contact-header">{{ site.data.translations[page.lang].contact_header}}</h1></div>
+            <div class="contact-left-container"><h1 class="contact-header" id="header-05">{{ site.data.translations[page.lang].contact_header}}</h1></div>
             <div class="contact-right-container">             
                 <p class="regular-text contact-us-text">
                 {{ site.data.translations[page.lang].contact_us_text }}
@@ -201,4 +201,5 @@
 <script type="text/javascript" src="../assets/scripts/solutionsScroll.js"></script>
 <script type="text/javascript" src="../assets/scripts/customScrollBar.js"></script>
 <script type="text/javascript" src="../assets/scripts/sideMoving.js"></script>
+<script type="text/javascript" src="../assets/scripts/movingTextUpAnim.js"></script>
 </html>
