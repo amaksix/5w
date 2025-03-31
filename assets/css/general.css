@@ -31,7 +31,7 @@ html, body {
   display: inline-block;
   opacity: 0;
   transform: translateY(100%);
-  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 1s ease, opacity 1s ease;
   }
   /* Special handling for spaces */
   .space {

@@ -20,8 +20,8 @@
     margin-left: 1.35vw;
     margin-right: 1.35vw;
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 23.8vw;
+    grid-template-columns: 40vw 23vw;
+    gap: 35vw;
     margin-bottom: 13.8vw;
 }
 .aboutus-third-block-container{
