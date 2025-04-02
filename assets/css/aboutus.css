@@ -47,18 +47,45 @@
 .approach-bloks-container{
     margin-top: 4.5vw;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
     gap:0.7vw;
+    width: 70.5vw;
+}
+.approach-bloks-container-02{
+    margin-top: 0.7vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap:0.7vw;
+    margin-bottom: 13.8vw;
+    width: 70.5vw;
 }
 .approach-block-container{
     border-radius: 1.4vw;
     background-color: transparent;
     box-shadow: 0  0.13vw 0.2vw rgba(15, 15, 16,0.15);
-    height: 16.5vw;
-    margin-bottom: 13.8vw;
+    height: 16.5vw; 
+    width: 23vw;
 }
 .approach-block-content{
     width: 17vw;
+    margin: auto;
+    margin-top: 2.7vw;
+    margin-bottom: 2.7vw;
+    text-align: left;
+}
+.approach-block-container-02{
+    border-radius: 1.4vw;
+    background-color: transparent;
+    box-shadow: 0  0.13vw 0.2vw rgba(15, 15, 16,0.15);
+    height: 16.5vw; 
+    width: 34.9vw;
+}
+.approach-block-content-02{
+    width: 28.7vw;
     margin: auto;
     margin-top: 2.7vw;
     margin-bottom: 2.7vw;
@@ -180,13 +207,13 @@
 }
 
 .aboutus-fifth-block-content-image{
-    color:#E1E2E5;
+    filter: invert(94%) sepia(6%) saturate(82%) hue-rotate(188deg) brightness(100%) contrast(86%);
     width: 2.7vw;
     height: 2.7vw;
     transition: var(--transition);
 }
 .aboutus-fifth-block-content-image-changed{
-    color:#39393B;
+    filter: invert(21%) sepia(6%) saturate(232%) hue-rotate(202deg) brightness(91%) contrast(90%);
 }
 .aboutus-fifth-block-content-header{
     color:#0F0F10;
@@ -202,14 +229,14 @@
 
 }
 .aboutus-fifth-block-content-text{
-    color:#9B9DA0;
+    color:#535458;
     margin-left: 4.3vw;
     margin-top: 2vw;
     width: 24.3vw;
     transition: var(--transition);
 }
 .aboutus-fifth-block-content-text-changed{
-    color:#535458;
+    color:#9B9DA0;
 }
 
 .aboutus-fifth-block-left-right-top-content-container{
