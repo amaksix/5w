@@ -148,6 +148,14 @@ en:
   forth_block_content_header_05: "Client-Centric Focus"
   forth_block_content_text_05: "Your success is our priority. We’re committed to delivering measurable results and exceeding expectations."
 
+  about_fifth_block_header: "Our Values"
+  about_fifth_block_content_header01: "Excellence"
+  about_fifth_block_content_text01: "We work with the best and strive for the highest standards in everything we do."
+  about_fifth_block_content_header02: "Integrity"
+  about_fifth_block_content_text02: "We believe in honest, transparent communication and long-term client relationships"
+  about_fifth_block_content_header03: "Collaboration"
+  about_fifth_block_content_text03: "We’re stronger together. We believe that collaboration is the key to innovation and success"
+
   about_sixt_block_header: "Ready to Work with the Best Experts in the Market?"
   about_sixt_block_text: "Let us help you find the right specialist for your business needs. Contact us today to learn more about how we can connect you with industry-leading professionals."
 
@@ -299,3 +307,14 @@ lv:
   forth_block_content_text_04: "No budžeta plānošanas un stratēģiskās plānošanas līdz vērtēšanai un projektu vadībai – mēs aptveram visus biznesa pārveides aspektus."
   forth_block_content_header_05: "Klientu Orientācija"
   forth_block_content_text_05: "Jūsu panākumi ir mūsu prioritāte. Mēs esam apņēmušies nodrošināt izmērāmus rezultātus un pārsniegt jūsu gaidas."
+
+  about_fifth_block_header: "Mūsu Vērtības"
+  about_fifth_block_content_header01: "Izcilība"
+  about_fifth_block_content_text01: "Mēs strādājam ar labākajiem un tiecamies pēc visaugstākajiem standartiem visā, ko darām."
+  about_fifth_block_content_header02: "Integritāte"
+  about_fifth_block_content_text02: "Mēs ticam godīgai, caurspīdīgai komunikācijai un ilgtermiņa attiecībām ar klientiem."
+  about_fifth_block_content_header03: "Sadarbība"
+  about_fifth_block_content_text03: "Kopā mēs esam stiprāki. Mēs uzskatām, ka sadarbība ir inovāciju un panākumu atslēga."
+
+  about_sixt_block_header: "Gatavs Sadarboties ar Labākajiem Ekspertiem Tirgū?"
+  about_sixt_block_text: "Ļaujiet mums palīdzēt atrast īsto speciālistu jūsu biznesa vajadzībām. Sazinieties ar mums jau šodien, lai uzzinātu vairāk par to, kā mēs varam jūs savienot ar nozares vadošajiem profesionāļiem."
