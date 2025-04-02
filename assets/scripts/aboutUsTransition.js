@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const icons =   document.querySelectorAll(".aboutus-fifth-block-content-image"); 
     const texsts = document.querySelectorAll(".aboutus-fifth-block-content-text"); 
     const header = document.querySelector(".aboutus-fifth-block-header");
+    const body =  document.querySelector(".body");
     function handleScroll() {
         const blockTop = block.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight/2.5;
+        const windowHeight = window.innerHeight/3;
 
         if (blockTop <= windowHeight) {
             block.classList.add("aboutus-fifth-block-container-changed");
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             texsts.forEach((text) => {
                text.classList.add("aboutus-fifth-block-content-text-changed");
             });
+            body.classList.add("body-changed");     
         } else {
             block.classList.remove("aboutus-fifth-block-container-changed");
             one.classList.remove("aboutus-fifth-block-left-content-container-changed");
@@ -40,7 +42,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });   
             texsts.forEach((text) => {
                 text.classList.remove("aboutus-fifth-block-content-text-changed");
-            });        
+            });   
+            body.classList.remove("body-changed");     
         }
     }
 

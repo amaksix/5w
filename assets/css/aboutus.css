@@ -13,6 +13,7 @@
 :root {
     --transition: 0.5s;
   }
+
 .aboutus-first-container{
     text-align: center;
     margin: auto;
@@ -83,6 +84,14 @@
 .aboutus-forth-block-container{
     margin-left: 1.35vw;
     margin-right: 1.35vw;
+}
+.body{
+    margin: 0;
+    background-color: #F0F0F2;
+    transition: var(--transition);
+  }
+  .body-changed {
+    background-color: #0F0F10;
 }
 .aboutus-forth-block-content{   
     display: grid;
@@ -255,10 +264,10 @@
 }
 .aboutus-contact-us-button{
     margin-top: 4.1vw;
-    background-color: #779FEE;
+    background-color: #F0F0F2;
     border: solid;
     border-width: 0.13vw;
-    border-color: #779FEE;
+    border-color: #F0F0F2;
     display: grid;
     grid-template-columns: auto auto;
     gap: 0.5vw;
