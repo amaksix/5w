@@ -118,21 +118,28 @@
     height: 9.4vw;
     border-top: 0.13vw solid #E1E2E5;
     align-items: center; /* Center child elements vertically */
+    transition: var(--transition);
+}
+.forth-block-content-container-changed{
+    border-top: 0.13vw solid #39393B;
 }
 .forth-block-content-container-last{
     border-bottom: 0.13vw solid #E1E2E5;
+    transition: var(--transition);
+}
+.forth-block-content-container-last-changed{
+    border-bottom: 0.13vw solid #39393B;
 }
 .forth-block-content-header{
     font-size: 1.4vw;
     font-family: "Mulish", Arial, sans-serif;
     font-weight: 500;
     color: #0F0F10;
-    margin-left: 3.1vw;
-    
+    margin-left: 3.1vw;   
+    transition: var(--transition);
 }
-.forth-block-content-text{
-    color: #535458;
-    margin-right: 3.1vw;
+.forth-block-content-header-changed{
+    color: #F0F0F2;
 }
 
 .aboutus-fifth-block-container{

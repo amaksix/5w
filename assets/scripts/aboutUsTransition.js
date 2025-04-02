@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const icons =   document.querySelectorAll(".aboutus-fifth-block-content-image"); 
     const texsts = document.querySelectorAll(".aboutus-fifth-block-content-text"); 
     const header = document.querySelector(".aboutus-fifth-block-header");
+    const containers = document.querySelectorAll(".forth-block-content-container");
+    const  lastContainer = document.querySelector(".forth-block-content-container-last");
+    const headers02 = document.querySelectorAll(".forth-block-content-header");
     const body =  document.querySelector(".body");
     function handleScroll() {
         const blockTop = block.getBoundingClientRect().top;
@@ -18,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             two.classList.add("aboutus-fifth-block-left-right-top-content-container-changed");
             three.classList.add("aboutus-fifth-block-left-right-bottom-content-changed");
             header.classList.add("aboutus-fifth-block-header-changed");
+            lastContainer.classList.add("forth-block-content-container-last-changed");
             headers.forEach((header) => {
                 header.classList.add("aboutus-fifth-block-content-header-changed");
             });
@@ -27,8 +31,15 @@ document.addEventListener("DOMContentLoaded", function () {
             texsts.forEach((text) => {
                text.classList.add("aboutus-fifth-block-content-text-changed");
             });
+            containers.forEach((container) => {
+                container.classList.add("forth-block-content-container-changed");
+             });
+             headers02.forEach((header02) => {
+                header02.classList.add("forth-block-content-header-changed");
+             });
             body.classList.add("body-changed");     
         } else {
+            lastContainer.classList.remove("forth-block-content-container-last-changed");
             block.classList.remove("aboutus-fifth-block-container-changed");
             one.classList.remove("aboutus-fifth-block-left-content-container-changed");
             two.classList.remove("aboutus-fifth-block-left-right-top-content-container-changed");
@@ -43,6 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
             texsts.forEach((text) => {
                 text.classList.remove("aboutus-fifth-block-content-text-changed");
             });   
+            containers.forEach((container) => {
+                container.classList.remove("forth-block-content-container-changed");
+             });
+             headers02.forEach((header02) => {
+                header02.classList.remove("forth-block-content-header-changed");
+             });
             body.classList.remove("body-changed");     
         }
     }

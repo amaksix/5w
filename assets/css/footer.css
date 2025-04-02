@@ -28,7 +28,11 @@ footer{
     margin-left: 44.65vw;
     width: 8vw;
     height: 3.456vw;
-    margin-bottom: 5vw;
+    
+}
+.footer-logo-img{
+    width: 8vw;
+    height: 3.456vw;
 }
 .footer-heading{
     color: #9B9DA0;
@@ -48,6 +52,7 @@ footer{
     display: grid;
     grid-template-columns: auto auto max-content;
     gap: 18vw;
+    margin-top: 5vw;
 }
 .contact-info{
     margin-right: 0;

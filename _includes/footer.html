@@ -1,5 +1,9 @@
 <footer>
-    <img class="footer-logo" src="../assets/images/Logo.png">
+    {% if page.lang == "lv" %}
+    <a href="/5w/lv/" class="footer-logo"><img class="footer-logo-img" src="../assets/images/Logo.png"></a>
+    {% else %}
+    <a href="/5w/en/" class="footer-logo"><img class="footer-logo-img" src="../assets/images/Logo.png"></a>
+    {% endif %}
     <div class="footer-info-container">
         <div class="address-container">
             <p class="footer-heading">Address</p>
@@ -13,8 +17,8 @@
         </div>
         <div class="contact-info">
             <p class="footer-heading">Contact</p>
-            <p class="footer-text">info@5w.com</p>
-            <p class="footer-text">+37111111111</p>
+            <p class="footer-text">contact@5w.lv</p>
+            <p class="footer-text">+371 27 457 071</p>
         </div>
     </div>
     <img class="footer-image" loading="lazy" src="../assets/images/Footer.png">
