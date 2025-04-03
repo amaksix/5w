@@ -117,6 +117,8 @@ en:
   popup_header: "Thank You!"
   popup_text: "Your message is received, we will get in touch with you within 1-2 workdays."
   popup_button: "Close"
+  popup_error_header: "Sorry!"
+  popup_error_text: "Your message wasn't send due to and error, please write us directly at contact@5w.lv"
 
   aboutus_header: "About Us"
   aboutus_first_text: "We are a team of financial experts dedicated to helping businesses streamline operations and achieve their goals. With deep expertise in budgeting, consolidation, valuation, and project management, we deliver customized solutions for every client."

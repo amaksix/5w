@@ -36,7 +36,7 @@
                 <input type="text" id="email" name="email" placeholder="example@mail.com">
                 <label for="message">{{ site.data.translations[page.lang].message }}</label>
                 <textarea class="message-input-field" type="text" id="message" name="message" placeholder="your text"></textarea>
-                <button  class="message-button" id="openPopup" ><p class="message-button-text">{{ site.data.translations[page.lang].send_message }}</p><img class="angled-arrow" ></button>
+                <button  class="message-button" id="sendMessage" ><p class="message-button-text">{{ site.data.translations[page.lang].send_message }}</p><img class="angled-arrow" ></button>
             </div>
         </div>
         <div class="contact-us-second-block">
@@ -58,12 +58,21 @@
             </div>
         </div>
            <!-- Popup Dialog -->
-        <div id="popup" class="popup">
+        <div id="popupSucces" class="popup">
             <div class="popup-content-container">
                 <div class="popup-content">
                     <p class="popup-header">{{ site.data.translations[page.lang].popup_header }}</p>
                     <p class="regular-text">{{ site.data.translations[page.lang].popup_text }}</p>
-                    <button class="close-popup-button" id="closePopup">{{ site.data.translations[page.lang].popup_button }}</button>
+                    <button class="close-popup-button" id="closePopupSucces">{{ site.data.translations[page.lang].popup_button }}</button>
+                </div>
+            </div>
+        </div>
+        <div id="popupError" class="popup">
+            <div class="popup-content-container">
+                <div class="popup-content">
+                    <p class="popup-header">{{ site.data.translations[page.lang].popup_error_header }}</p>
+                    <p class="regular-text">{{ site.data.translations[page.lang].popup_error_text }}</p>
+                    <button class="close-popup-button" id="closePopupError">{{ site.data.translations[page.lang].popup_button }}</button>
                 </div>
             </div>
         </div>
@@ -75,4 +84,28 @@
 <script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
 <script type="text/javascript" src="../assets/scripts/openPopUp.js"></script>
 <script type="text/javascript" src="../assets/scripts/movingTextUpAnim.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("Rftfur8DO9kyyw_Zz"); 
+  })();
+</script>
+<script>
+    document.getElementById("sendMessage").addEventListener("click", function(event) {
+    
+      emailjs.send("service_8kxdq0m", "template_zndf2bm", {
+          name: document.getElementById("name").value,
+          email: document.getElementById("email").value,
+          message: document.getElementById("message").value
+      }).then(
+        function(response) {
+            document.getElementById("popupSucces").style.display = "flex";
+        },
+        function(error) {
+            document.getElementById("popupError").style.display = "flex";
+          console.error("Error:", error);
+        }
+      );
+    });
+    </script>
 </html>
