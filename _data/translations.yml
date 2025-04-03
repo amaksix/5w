@@ -281,6 +281,8 @@ lv:
   popup_header: "Paldies!"
   popup_text: "Jūsu ziņojums ir saņemts, mēs ar jums sazināsimies 1-2 darba dienu laikā."
   popup_button: "Aizvērt"
+  popup_error_header: "Atvainojiet!"
+  popup_error_text: "Jūsu ziņojumu neizdevās nosūtīt kļūdas dēļ. Lūdzu, rakstiet mums tieši uz contact@5w.lv."
 
   aboutus_header: "Par Mums"
   aboutus_first_text: "Mēs esam finanšu ekspertu komanda, kas apņēmusies palīdzēt uzņēmumiem optimizēt darbību un sasniegt savus mērķus. Ar padziļinātām zināšanām budžeta plānošanā, konsolidācijā, novērtēšanā un projektu vadībā mēs piedāvājam pielāgotus risinājumus katram klientam."
