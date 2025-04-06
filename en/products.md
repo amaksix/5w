@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Products
+title: Financial Solutions & Advisory Services | Budgeting, Valuation, CFO & More
 heading: Producs
 lang: en
 permalink: /en/products

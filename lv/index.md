@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 5W
+title: Stipriniet Savu Finansiālo Nākotni | 5W
 heading: 5W
 lang: lv
 permalink: /lv/

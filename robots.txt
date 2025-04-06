@@ -7,4 +7,4 @@ Disallow: /tmp/
 Allow: /
 
 # Link to sitemap
-Sitemap: https://amaksix.github.io/5w/sitemap.xml
+Sitemap: https://www.5w.lv/sitemap.xml
