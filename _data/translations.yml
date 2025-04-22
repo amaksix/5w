@@ -105,7 +105,7 @@ en:
 
   contact_us_header: "Contact Us"
 
-  contact_us_second_block_first_section_header: "Company"
+  contact_us_second_block_first_section_header: "Working Hours"
   contact_us_second_block_first_section_text02: "Monday - Friday"
 
   contact_us_second_block_second_section_header: "Reach Out"
@@ -170,8 +170,8 @@ lv:
   meta_home_description: "Vienkāršojiet sarežģītus finanšu procesus un sasniedziet savus mērķus. Atklājiet mūsu ekspertu risinājumus budžeta plānošanā, konsolidācijā, novērtēšanā un citās jomās."
   meta_products_description: "Iepazīstiet mūsu finanšu risinājumu klāstu, kas paredzēts efektivitātes paaugstināšanai un uzņēmuma izaugsmes veicināšanai. No budžeta plānošanas un stratēģijas līdz ārpakalpojumu CFO pakalpojumiem, vērtēšanai, konsolidācijai un projektu vadībai — uzziniet, kā mēs palīdzam uzņēmumiem pieņemt gudrākus finanšu lēmumus."
 
-  main_header_first: "KUR FINANSES SASTOPAS AR"
-  main_header_second: "INOVĀCIJĀM"
+  main_header_first: "Inovatīvi risinājumi finanšu "
+  main_header_second: "uzskaitē un vadībā"
   explore_text: "Atklājiet izaugsmi un efektivitāti ar mūsu finanšu pakalpojumu klāstu—Budžetēšana, Plānošana, Konsolidācija, Vērtēšana un Projektu vadība. Mūsu risinājumi palīdz jums būt soli priekšā konkurentiem."
   explore_button: "Izpētīt Mūsu Risinājumus"
   about_us_title: "PAR MUMS"
@@ -207,7 +207,7 @@ lv:
   "phase_scroll_content_text_third": "Plānojat paplašināties? Mēs palīdzam ar stratēģisko plānošanu. Apvienojat uzņēmumus? Mēs nodrošinām finanšu konsolidāciju. Neesat pārliecināts par vērtējumu? Mēs sniedzam skaidrību."
   "phase_scroll_content_text_forth": "Jūsu panākumi ir mūsu prioritāte. Mēs esam apņēmušies nodrošināt izmērāmu rezultātu un pārsniegt cerības."
   "phase_scroll_content_text_fifth": "Mēs strādājam globāli, savienojot uzņēmumus ar augstākās klases finanšu ekspertiem neatkarīgi no atrašanās vietas. Neatkarīgi no tā, vai esat jaunuzņēmums, vidēja lieluma uzņēmums vai liela korporācija, mēs nodrošinām jums nepieciešamo ekspertīzi – gan virtuāli, gan klātienē."
-  products_header: 'Izpētiet mūsu <span class="highlight-text">&nbsp;produktus</span>'
+  products_header: 'Izpētiet mūsu <span class="highlight-text">&nbsp;pakalpojumus</span>'
   products_description_header: "Uzticams risinājums vadošajiem uzņēmumiem dažādās nozarēs, kas nodrošina reālu ietekmi."
   products_description_text: 'Piedāvājam uzņēmumiem dažādus pakalpojumus finanšu procesu uzlabošanai, darbības optimizēšanai un datos balstītu lēmumu pieņemšanai. Uzziniet, kā mūsu risinājumi var palīdzēt jūsu biznesa izaugsmē.'
   
@@ -236,7 +236,7 @@ lv:
   third_product_content_middle_first_text: "Uzticami uzņēmējdarbības vērtēšanas pakalpojumi, fokusējoties uz uzņēmuma vērtības vadību, stratēģisko plānošanu un atbalstu investīciju lēmumu pieņemšanā."
   third_product_content_middle_second_header: "Pielietojumu scenāriji:"
   third_product_content_middle_list_01: "Paātrinātā vērtības indikācija, izmantojot ierobežotu izejas informāciju"
-  third_product_content_middle_list_02: "Detalizēta novērtējuma izstrāde darījumu un/vai stratēģiskās plānošanai vajadzībām"
+  third_product_content_middle_list_02: "Detalizēta novērtējuma izstrāde darījumu / stratēģiskās plānošanai / reorganizācijas vajadzībām"
   third_product_content_middle_list_03: "Stratēģiskā vērtības vadība"
   third_product_content_right_list_01: 'Pašu izstrādāta "Ātrās vērtības aplēses"  rīka pielietošana: izmantojama automatizētai sākotnējās vērtības aplēses vajadzībām'
   third_product_content_right_list_02: "Salīdzināmie tirgus dati: nozares multiplikatoru izmantošana sākotnējās vertības aplēses vajadzībām"
@@ -272,7 +272,7 @@ lv:
 
   contact_us_header: "Sazinieties ar Mums"
 
-  contact_us_second_block_first_section_header: "Uzņēmums"
+  contact_us_second_block_first_section_header: "Darba Laiks"
   contact_us_second_block_first_section_text02: "Pirmdiena - Piektdiena"
 
   contact_us_second_block_second_section_header: "Sazinieties ar mums"
