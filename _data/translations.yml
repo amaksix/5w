@@ -4,7 +4,7 @@ en:
 
   main_header_first: "WHERE FINANCE MEETS"
   main_header_second: "INNOVATION"
-  explore_text: "Unlock growth and efficiency with our comprehensive suite of financial services—Budgeting, Planning, Consolidation, Valuation, and Project Management. Designed to empower your decision-making, our solutions help you stay ahead in a competitive market."
+  explore_text: "Unlock growth and efficiency with our comprehensive suite of financial advisory services — Management Accounting, Outsourced CFO services, Business Valuation, Financial consolidation and Project Management. Designed to empower your decision-making, our solutions help you stay ahead in a competitive market."
   explore_button: "Explore Our Solutions"
   about_us_title: "ABOUT US"
   about_us_text: "With years of experience in financial consulting, we specialize in delivering innovative solutions that simplify complex processes. Our team is dedicated to helping businesses achieve their financial goals."
@@ -15,16 +15,16 @@ en:
   contact_us_text: "Take the next step toward financial excellence. Contact us today for a personalized consultation."
   products_button: "Explore All Solutions"
   
-  solutions_element_first_header: "Budgeting & Planning"
-  solutions_element_second_header: "Financial Consolidation"
-  solutions_element_third_header: "Financial Valuation"
-  solutions_element_forth_header: "Project Management"
-  solutions_element_fifth_header: "Outsorced CFO"
-  solutions_element_first_text: "Drive business performance with seamless budgeting and planning powered by Jedox, the market-leading enterprise performance management (EPM) software."
-  solutions_element_second_text: "Make multi-entity reporting and compliance easy with our Financial Consolidationservices. We ensure accuracy, transparency, and compliance in all aspects of consolidated financial reporting."
-  solutions_element_third_text: "Accurate and reliable Financial Valuation services to support mergers, acquisitions, strategic planning, and investment decisions."
-  solutions_element_forth_text: "Achieve your business objectives with our Project Management services—ensuring projects are delivered on time, within budget, and aligned with your strategic goals."
-  solutions_element_fifth_text: "Proactive threat detection and neutralization to keep your business secure."
+  solutions_element_first_header: "Management Accounting"
+  solutions_element_second_header: "Outsourced CFO services"
+  solutions_element_third_header: "Business Valuation"
+  solutions_element_forth_header: "Financial Consolidation"
+  solutions_element_fifth_header: "Project Management"
+  solutions_element_first_text: "Optimize your planning and decision making process, using simple tools like MS Excel or complex cloud-based solutions."
+  solutions_element_second_text: "Obtain and analyze neccesary data for your financial decisions to increase value of your business."
+  solutions_element_third_text: "Advisory and certified expert opinion to support company growth and strategic decisions."
+  solutions_element_forth_text: "Streamline multi-entity reporting with powerful consolidation tools."
+  solutions_element_fifth_text: "Manage projects efficiently with a focus on budget and performance."
   
   phases_header: 'Elevate Your Business with <span>Our</span><span class="highlight-text">&nbsp;Five-Phase&nbsp;</span> Approach'
   phases_text: 'Explore our five-phase approach to see how we drive growth and efficiency at every step'
@@ -172,10 +172,10 @@ lv:
 
   main_header_first: "Inovatīvi risinājumi finanšu "
   main_header_second: "uzskaitē un vadībā"
-  explore_text: "Atklājiet izaugsmi un efektivitāti ar mūsu finanšu pakalpojumu klāstu—Budžetēšana, Plānošana, Konsolidācija, Vērtēšana un Projektu vadība. Mūsu risinājumi palīdz jums būt soli priekšā konkurentiem."
-  explore_button: "Izpētīt Mūsu Risinājumus"
+  explore_text: "Iepazīstinām ar mūsu piedāvāto finanšu konsultāciju pakalpojumu klāstu — vadības uzskaite, ārpakalpojuma CFO, uzņēmējdarbības vērtēšana, finanšu konsolidācija un projektu vadība. Mūsu risinājumi ir izveidoti Jūsu ikdienas un stratēģisko lēmumu pieņemšanas atbalstam."
+  explore_button: "Izpētīt Risinājumus"
   about_us_title: "PAR MUMS"
-  about_us_text: "Ar daudzu gadu pieredzi finanšu konsultāciju jomā, mēs piedāvājam inovatīvus risinājumus, kas vienkāršo sarežģītus procesus. Mūsu komanda palīdz uzņēmumiem sasniegt savus finanšu mērķus."
+  about_us_text: "Uzkrāto finanšu konsultāciju pieredzi izmantojam inovatīvu risinājumu ieviešanā, vienkāršojot sarežģītus finanšu un uzskaites procesus. Mūsu komanda ir apņēmības pilna palīdzēt uzņēmumiem to noteikto mērķu sasniegšanā."
   about_us_button: "Uzzināt Vairāk"
   solutions_header: 'Aizdedziet <span class="highlight-text"> Savus Potenciālus</span> ar Inovācijām'
   solutions_text: 'Ar daudzu gadu pieredzi finanšu konsultāciju jomā mēs specializējamies inovatīvu risinājumu sniegšanā, kas vienkāršo sarežģītus procesus. Mūsu komanda ir apņēmusies palīdzēt uzņēmumiem sasniegt viņu finanšu mērķus.'
@@ -183,16 +183,16 @@ lv:
   contact_us_text: 'Speriet nākamo soli pretī finanšu izcilībai. Sazinieties ar mums jau šodien, lai saņemtu personalizētu konsultāciju.'
   products_button: "Izpētīt Visus Risinājumus"
   
-  solutions_element_first_header: "Budžeta Plānošana"
-  solutions_element_second_header: "Finanšu Konsolidācija"
-  solutions_element_third_header: "Finanšu Novērtēšana"
-  solutions_element_forth_header: "Projektu Vadība"
-  solutions_element_fifth_header: "Ārpakalpojumu CFO"
-  solutions_element_first_text: "Uzlabojiet uzņēmuma veiktspēju ar nevainojamu budžeta plānošanu, ko nodrošina Jedox – tirgū vadošā uzņēmuma veiktspējas vadības (EPM) programmatūra."
-  solutions_element_second_text: "Atvieglojiet daudzuzņēmumu finanšu pārskatu sagatavošanu un atbilstības nodrošināšanu ar mūsu finanšu konsolidācijas pakalpojumiem. Mēs garantējam precizitāti, caurredzamību un atbilstību visos konsolidētās finanšu atskaites aspektos."
-  solutions_element_third_text: "Precīzi un uzticami finanšu novērtēšanas pakalpojumi, kas atbalsta apvienošanos, pārņemšanu, stratēģisko plānošanu un investīciju lēmumus."
-  solutions_element_forth_text: "Sasniedziet savus biznesa mērķus ar mūsu projektu vadības pakalpojumiem – nodrošinot, ka projekti tiek īstenoti laikā, ietverot budžetu un saskaņoti ar jūsu stratēģiskajiem mērķiem."
-  solutions_element_fifth_text: "Proaktīva draudu noteikšana un neitralizācija, lai nodrošinātu jūsu uzņēmuma drošību."
+  solutions_element_first_header: "Vadības Uzskaite"
+  solutions_element_second_header: "Ārpakalpojuma CFO"
+  solutions_element_third_header: "Uzņēmējdarbības Vērtēšana"
+  solutions_element_forth_header: "Finanšu Konsolidācija"
+  solutions_element_fifth_header: "Projektu Vadība"
+  solutions_element_first_text: "Optimizējiet iekšējo plānošanu un lēmumu pieņemšanu, izmantojot gan vienkāršus rīkus, kā piemēram MS Excel, tā arī komplicētākus risinājumus."
+  solutions_element_second_text: " Analizējiet finanšu lēmumu pieņemšanai nepieciešamos datus sava uzņēmuma vērtības paaugstināšanai."
+  solutions_element_third_text: "Iegūstiet neatkarīgu viedokli uzņēmuma izaugsmes un stratēģisko lēmumu pieņemšanā - no vērtības aplēses līdz sertificēta vērtēšanas eksperta atzinuma sagatavošanai."
+  solutions_element_forth_text: "Ieviešiet efektīvus uzņēmumu grupas konsolidēto pārskatu sagatavošanas rīkus."
+  solutions_element_fifth_text: "Iegūstiet efektīvus projektu vadības pakalpojumus, fokusējoties uz budžeta izpildi un rezultātu monitoringu."
   
   phases_header: 'Paceliet savu biznesu augstāk <span>ar mūsu</span><span class="highlight-text">&nbsp;piecu posmu&nbsp;</span> pieeju'
   phases_text: 'Izpētiet mūsu piecu posmu pieeju, lai redzētu, kā mēs veicinām izaugsmi un efektivitāti ik uz soļa.'
@@ -202,11 +202,11 @@ lv:
   "phase_scroll_content_header_third": "Kad"
   "phase_scroll_content_header_forth": "Kāpēc"
   "phase_scroll_content_header_fifth": "Kur"
-  "phase_scroll_content_text_first": "Mūsu tīkls sastāv no vadošajiem profesionāļiem ar plašu pieredzi un nozares atzinību."
-  "phase_scroll_content_text_second": "Neatkarīgi no tā, vai jums nepieciešams budžeta plānošanas eksperts, konsolidācijas speciālists vairāku vienību atskaitēm vai vērtēšanas konsultants stratēģiskajai plānošanai, mēs piemeklēsim jums īsto speciālistu."
-  "phase_scroll_content_text_third": "Plānojat paplašināties? Mēs palīdzam ar stratēģisko plānošanu. Apvienojat uzņēmumus? Mēs nodrošinām finanšu konsolidāciju. Neesat pārliecināts par vērtējumu? Mēs sniedzam skaidrību."
-  "phase_scroll_content_text_forth": "Jūsu panākumi ir mūsu prioritāte. Mēs esam apņēmušies nodrošināt izmērāmu rezultātu un pārsniegt cerības."
-  "phase_scroll_content_text_fifth": "Mēs strādājam globāli, savienojot uzņēmumus ar augstākās klases finanšu ekspertiem neatkarīgi no atrašanās vietas. Neatkarīgi no tā, vai esat jaunuzņēmums, vidēja lieluma uzņēmums vai liela korporācija, mēs nodrošinām jums nepieciešamo ekspertīzi – gan virtuāli, gan klātienē."
+  "phase_scroll_content_text_first": "Esam finanšu uzskaites speciālistu tīkls ar plašu profesionālo uzkrāto pieredzi."
+  "phase_scroll_content_text_second": "Piedāvājam plaša spektra finanšu un uzskaites risinājumu klāstu - no vadības uzskates līdz uzņēmējdarbības vērtēšanai un finanšu konsolidācijas risinājumu ieviešanai."
+  "phase_scroll_content_text_third": "Mūsu pakalpojumi ir noderīgi gan ikdienas, gan arī stratēģisko lēmumu pieņemsānas procesā."
+  "phase_scroll_content_text_forth": "Mēs esam spējīgi sniegt konsultāciju neatkarīgi no atrašanās vietas. Esam gatavi sniegt nepieciešamo ekspertīzi kā attālināti, tā arī klātienē."
+  "phase_scroll_content_text_fifth": "Jūsu panākumi ir mūsu prioritāte, tāpēc mēs vēlamies nodrošināt izmērāmus rezultātus jūsu mērķu sasniegšanai."
   products_header: 'Izpētiet mūsu <span class="highlight-text">&nbsp;pakalpojumus</span>'
   products_description_header: "Uzticams risinājums vadošajiem uzņēmumiem dažādās nozarēs, kas nodrošina reālu ietekmi."
   products_description_text: 'Piedāvājam uzņēmumiem dažādus pakalpojumus finanšu procesu uzlabošanai, darbības optimizēšanai un datos balstītu lēmumu pieņemšanai. Uzziniet, kā mūsu risinājumi var palīdzēt jūsu biznesa izaugsmē.'
