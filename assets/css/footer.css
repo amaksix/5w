@@ -79,3 +79,6 @@ footer{
     font-family: "Jost-Medium", Arial, sans-serif;
     font-weight: medium;
 }
+.footer-menu-container{
+    width: 20vw;
+}
