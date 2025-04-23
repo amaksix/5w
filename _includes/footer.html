@@ -6,25 +6,24 @@
     {% endif %}
     <div class="footer-info-container">
         <div class="footer-menu-container">
-            
             {% if page.lang == "lv" %}
-            <p class="footer-heading">Navigācija</p>
-            <button class="footer-button" onclick="goToHref(/lv/)"><p class="footer-text">Sākums</p></button>
-            <button class="footer-button" onclick="goToHref(/lv/products)"><p class="footer-text">Produkti</p></button>
-            <button class="footer-button" onclick="goToHref(/lv/aboutus)"><p class="footer-text">Par Mums</p></button>
-            <button class="footer-button" onclick="goToHref(/lv/contact)"><p class="footer-text">Sazinieties ar Mums</p></button>
+                <p class="footer-heading">Navigācija</p>
+                <a href="/lv/" class="btn"><span class="label-up">Sākums</span><span class="label-up">Sākums</span></a>
+                <a href="/lv/products" class="btn"><span class="label-up">Produkti</span><span class="label-up">Produkti</span></a>
+                <a href="/lv/aboutus" class="btn"><span class="label-up">Par Mums</span><span class="label-up">Par Mums</span></a>
+                <a href="/lv/contact" class="btn"><span class="label-up">Sazinieties ar Mums</span><span class="label-up">Sazinieties ar Mums</span></a>
             {% else %}
-            <p class="footer-heading">Navigation</p>
-            <button class="footer-button" onclick="goToHref(/en/)"><p class="footer-text">Home</p></button>
-            <button class="footer-button" onclick="goToHref(/en/products)"><p class="footer-text">Products</p></button>
-            <button class="footer-button" onclick="goToHref(/en/aboutus)"><p class="footer-text">About Us</p></button>
-            <button class="footer-button" onclick="goToHref(/en/aboutus)"><p class="footer-text">Contact Us</p></button>
+                <p class="footer-heading">Navigation</p>
+                <a href="/en/" class="btn"><span class="label-up">Home</span><span class="label-up">Home</span></a>
+                <a href="/en/products" class="btn"><span class="label-up">Products</span><span class="label-up">Products</span></a>
+                <a href="/en/aboutus" class="btn"><span class="label-up">About Us</span><span class="label-up">About Us</span></a>
+                <a href="/en/contact" class="btn"><span class="label-up">Contact Us</span><span class="label-up">Contact Us</span></a>
             {% endif %}
    
         </div>
         <div class="social-media-container">
             <p class="footer-heading">Social</p>
-            <button class="footer-button"><p class="footer-text">LinkedIn</p></button>
+            <a href="https://www.linkedin.com/company/5wsolutions/" target="_blank" class="btn"><span class="label-up">LinkedIn</span><span class="label-up">LinkedIn</span></a>
         </div>
         <div class="contact-info">
             <p class="footer-heading">Contact</p>

@@ -82,3 +82,33 @@ footer{
 .footer-menu-container{
     width: 7vw;
 }
+.btn {
+    background-color:transparent;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: background 0.3s;
+    color: #D2D4D9;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.15vw;
+   
+    margin: auto;
+    text-wrap: nowrap;
+    display:inline-block;
+    overflow:hidden;
+    position:relative;
+    height: 1.5vw;
+    margin-bottom: 0.75vw;
+}
+.label-up {
+    display:block;
+    height:100%;
+    position:relative;
+    top:0%;
+    transition:0.6s;
+    margin-bottom: 2vw;
+  }
+  
+  .btn:hover .label-up {
+    top:-230%;
+  }
