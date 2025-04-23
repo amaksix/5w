@@ -82,7 +82,7 @@ footer{
 .footer-menu-container{
     width: 7vw;
 }
-.btn {
+.footer-btn {
     background-color:transparent;
     text-decoration: none;
     border-radius: 0px;
@@ -109,6 +109,6 @@ footer{
     margin-bottom: 2vw;
   }
   
-  .btn:hover .label-up {
+  .footer-btn:hover .label-up {
     top:-230%;
   }
