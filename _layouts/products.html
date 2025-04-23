@@ -25,7 +25,7 @@
 </head>
 <body>
     {% include header.html %}  <!-- Reusable Header -->
-    <div class="main">
+    <div class="main" >
         <h1 class="products-main-header" id="header-01">{{ site.data.translations[page.lang].products_header }}</h1>
         <div class="products-description">
             <div class="products-description-left-container">
@@ -62,6 +62,7 @@
                     </ul>
                 </div>
                 <div class="product-content-right">
+                    <p class="product-content-right-header">{{ site.data.translations[page.lang].first_product_content_right_header }}</p>
                     <ul class="product-content-right-list">
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].first_product_content_right_list_01 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].first_product_content_right_list_02 }}</li>
@@ -79,13 +80,21 @@
                     <p class="product-content-middle-first-header">{{ site.data.translations[page.lang].second_product_content_middle_first_header}}</p>
                     <p class="regular-text">{{ site.data.translations[page.lang].second_product_content_middle_first_text }}</p>
                     <p class="product-content-middle-second-header">{{ site.data.translations[page.lang].second_product_content_middle_second_header }}</p>
+                    <ul class="product-content-middle-list">
+                        <li class="regular-text product-content-middle-list-elem"><span class="custom-bullet"></span>{{ site.data.translations[page.lang].second_product_content_middle_list_01 }}</li>
+                        <li class="regular-text product-content-middle-list-elem"><span class="custom-bullet"></span>{{ site.data.translations[page.lang].second_product_content_middle_list_02 }}</li>
+                        <li class="regular-text product-content-middle-list-elem"><span class="custom-bullet"></span>{{ site.data.translations[page.lang].second_product_content_middle_list_03 }}</li>
+                        <li class="regular-text product-content-middle-list-elem"><span class="custom-bullet"></span>{{ site.data.translations[page.lang].second_product_content_middle_list_04 }}</li>
+                    </ul>
                 </div>
                 <div class="product-content-right">
+                    <p class="product-content-right-header">{{ site.data.translations[page.lang].second_product_content_right_header }}</p>
                     <ul class="product-content-right-list">
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].second_product_content_right_list_01 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].second_product_content_right_list_02 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].second_product_content_right_list_03 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].second_product_content_right_list_04 }}</li>
+                        <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].second_product_content_right_list_05 }}</li>
                     </ul>
                 </div>
             </div>
@@ -104,6 +113,7 @@
                     </ul>
                 </div>
                 <div class="product-content-right">
+                    <p class="product-content-right-header">{{ site.data.translations[page.lang].third_product_content_right_header }}</p>
                     <ul class="product-content-right-list">
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].third_product_content_right_list_01 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].third_product_content_right_list_02 }}</li>
@@ -128,6 +138,7 @@
                     </ul>
                 </div>
                 <div class="product-content-right">
+                    <p class="product-content-right-header">{{ site.data.translations[page.lang].forth_product_content_right_header }}</p>
                     <ul class="product-content-right-list">
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].forth_product_content_right_list_01 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].forth_product_content_right_list_02 }}</li>
@@ -151,6 +162,7 @@
                     </ul>
                 </div>
                 <div class="product-content-right">
+                    <p class="product-content-right-header">{{ site.data.translations[page.lang].fifth_product_content_right_header }}</p>
                     <ul class="product-content-right-list">
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].fifth_product_content_right_list_01 }}</li>
                         <li class="regular-text product-content-right-list-elem"><span class="custom-bullet-second"></span>{{ site.data.translations[page.lang].fifth_product_content_right_list_02 }}</li>

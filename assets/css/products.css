@@ -94,7 +94,7 @@
     border-top-right-radius: 2vw;
     border-top: 0.13vw solid #E1E2E5;
     height: 39vw;
-    width: 94.5vw;
+    width: 94.5%;
     display: grid;
     grid-template-columns: 31vw 27.7vw 27.7vw;
     gap: 4vw;
@@ -133,7 +133,13 @@
     font-weight: 500;
     margin-bottom: 3.4vw;
 }
-
+.product-content-right-header{
+    color:#0F0F10;
+    font-size: 1.25vw;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 1.7vw;
+}
 .product-content-middle-second-header{
     color:#0F0F10;
     font-size: 1.25vw;
