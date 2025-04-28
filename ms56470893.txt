@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "5w.lv",
+  "Id": "820321c8-e804-45fd-9d8b-8615726794ef"
+}
