@@ -166,3 +166,7 @@ nav {
 .LearnMore:hover{
     background-color: transparent;
 }
+@media only screen and (hover: none) and (pointer: coarse), 
+(max-width: 480px) {
+    
+}

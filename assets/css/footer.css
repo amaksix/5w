@@ -112,3 +112,48 @@ footer{
   .footer-btn:hover .label-up {
     top:-230%;
   }
+  @media only screen and (hover: none) and (pointer: coarse), 
+  (max-width: 480px) {
+    footer{
+        padding-top: 12.7vw;
+        padding-bottom: 11.4vw;
+    }
+    .footer-image{
+        display: none;
+    }
+    .footer-logo{
+        margin-left: 35.65vw;
+        width: 26.7vw;
+        height: 11.7vw;
+        
+    }
+    .footer-logo-img{
+        width: 26.7vw;
+        height: 11.7vw;
+    }
+    .footer-heading{
+        font-size: 2.5vw;
+        margin-bottom: 5vw;
+    }
+    .footer-btn {
+        font-size: 3vw;
+        height: 3.6vw;
+        overflow:hidden;
+        margin-bottom: 5.8vw;
+        text-decoration: underline;
+    }
+    .footer-text{
+        font-size: 3vw;
+    }
+    .footer-info-container{
+        display: grid;
+        grid-template-columns: auto auto max-content;
+        gap: 18vw;
+        margin-top: 5vw;
+    }
+    .social-media-container{
+        margin-right: 0;
+        margin-left: auto;
+        width: 11.4vw;
+    }
+  }
