@@ -235,4 +235,72 @@
     .main-contact-us-button > .angled-arrow{
         margin-top: -1vw;
     }
+    .scroll-container {
+
+        padding-top: 7.6vw;
+
+    }
+      /* Content inside the container */
+  .scroll-content-box {
+    gap: 3vw;
+  }
+  .scroll-content-element{
+    width: 60.3vw;
+    height:60.9vw;
+    border-radius:4vw;
+    padding:5vw;
+}
+.scroll-content-element-active{
+    width: 60.3vw;
+    height:60.9vw;
+    border-radius: 4vw;
+    padding:5vw;
+}
+.scroll-content-element-header-left{
+    font-size:7vw;
+
+}
+.scroll-content-element-header-right{
+    font-weight: 400;
+    font-size:3vw;
+}
+.scroll-content-element-second-header{
+    color: #0f0f10;;
+    font-family: "Mulish", Arial, sans-serif;
+    font-weight: 700;
+    font-size:4.5vw;
+    margin-top: 7vw;
+}
+.line{
+    border-bottom: 0.25vw solid  #D2D4D9;
+    height: 0;
+    margin-top: 3.8vw;
+    margin-bottom: 4vw;
+}
+.line-active{
+    border-bottom: 0.25vw  solid #0F0F10;
+}
+/* Custom scrollbar track */
+.custom-scroll-track {
+    width: 90%; /* Adjust as needed */
+    height: 5vw; /* Same as scrollbar height */
+   
+}
+/* Custom scrollbar thumb */
+.custom-scroll-thumb {
+    width: 27vw; /* Set thumb size */
+    height:8vw;
+    margin-top: -1.5vw;
+    background: url('../images/Button_SCROLL_MOB.svg') no-repeat center;
+}
+.custom-scroll-thumb:hover {
+    width: 27vw; /* Set thumb size */
+    height:8vw;
+    margin-top: -1.5vw;
+}
+.custom-scroll-thumb:active {
+    width: 27vw; /* Set thumb size */
+    height:8vw;
+    margin-top: -1.5vw;
+}
 }
