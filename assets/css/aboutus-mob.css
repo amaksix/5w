@@ -151,10 +151,12 @@
     font-weight: 500;
     color: #0F0F10;
     margin-bottom:5vw;
+     width: 50vw;
 }
 .approach-block-text{
     color:#535458;
     text-wrap: wrap;
+     width: 50vw;
 }
 .aboutus-forth-block-container{
     margin-left: 4vw;
