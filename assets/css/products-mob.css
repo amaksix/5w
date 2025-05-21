@@ -216,7 +216,7 @@
 .custom-bullet-second {
     width: 6.3vw;  /* Custom width */
     height:0.25vw; /* Custom height */
-    border-top: 0.07vw solid #779FEE;
+    border-top: 0.25vw solid #779FEE;
     flex-shrink: 0;
     margin-top: 2.2vw;
 }
