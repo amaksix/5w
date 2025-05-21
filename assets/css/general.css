@@ -88,3 +88,17 @@ html:not(.scroll-container)::-webkit-scrollbar-thumb:hover,
 body:not(.scroll-container)::-webkit-scrollbar-thumb:hover {
   background: #888; /* General hover thumb color */
 }
+
+@media only screen and (hover: none) and (pointer: coarse), 
+(max-width: 480px) {
+h1{
+  font-size: 7.1vw;
+}
+.regular-text{
+  font-size: 3.5vw;
+}
+.main{
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+}

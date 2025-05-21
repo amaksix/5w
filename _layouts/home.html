@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/home-mob.css">
     <link rel="icon" type="image/x-icon" href="../assets/images/32х32.png">
     
     <link rel="icon" href="../assets/images/16х16.png" sizes="16x16" type="image/png">
@@ -32,13 +33,13 @@
             <span class="header-first-line">{{ site.data.translations[page.lang].main_header_first }}</span>
             <span class="header-second-line">{{ site.data.translations[page.lang].main_header_second }}</span>
         </h1>
-        <div class="explore">
+        <div class="explore" id="explore">
             <video class="first-shot-video" autoplay muted loop playsinline>
                 <source src="../assets/video/first-shot.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="darkening-video"></div>
-            <div class="overlay-box">
+            <div class="overlay-box" id="overlay-box">
                 <p class="regular-text overlay-box-text">
                     {{ site.data.translations[page.lang].explore_text }}
                 </p>
@@ -80,10 +81,10 @@
             </div>
         </div>
         <div class="solutions">
-            <h1 style="width: 71vw;" id="header-02"> {{ site.data.translations[page.lang].solutions_header}}</h1>
+            <h1 class="solution-header" id="header-02"> {{ site.data.translations[page.lang].solutions_header}}</h1>
             <div class="solutions-text-container">
-                <p class="regular-text" style="width: 65vw;">{{ site.data.translations[page.lang].solutions_text}}</p>
-                <div class="link-button-container" style="margin-left: auto;">
+                <p class="regular-text solutions-text" >{{ site.data.translations[page.lang].solutions_text}}</p>
+                <div class="link-button-container sol-button" style="margin-left: auto;">
                     <a class="link-button" href="/{{ page.lang }}/products">
                         {{ site.data.translations[page.lang].products_button }}
                     </a>
@@ -116,6 +117,12 @@
                     <p class="solution-element-second solution-element-content">{{ site.data.translations[page.lang].solutions_element_fifth_header}}</p>
                     <p class="regular-text solution-element-content solution-element-third">{{ site.data.translations[page.lang].solutions_element_fifth_text}}</p>
                 </div>
+            </div>
+            <div class="link-button-container sol-button-mob" style="margin-left: auto;">
+                <a class="link-button" href="/{{ page.lang }}/products">
+                    {{ site.data.translations[page.lang].products_button }}
+                </a>
+                <img class="blue-arrow">
             </div>
         </div>
         <div class="phases">
@@ -206,4 +213,5 @@
 <script type="text/javascript" src="../assets/scripts/customScrollBar.js"></script>
 <script type="text/javascript" src="../assets/scripts/sideMoving.js"></script>
 <script type="text/javascript" src="../assets/scripts/movingTextUpAnim.js"></script>
+<script type="text/javascript" src="../assets/scripts/homeLauoutChange.js"></script>
 </html>

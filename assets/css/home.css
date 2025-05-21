@@ -202,6 +202,9 @@ html, body {
     display: grid;
     grid-template-columns:  auto auto;
 }
+.solutions-text{
+    width: 65vw;
+}
 .solutions-element{
     height: 7.2vw;
     border: 0;
@@ -457,4 +460,13 @@ html, body {
     font-size: 1vw;
     text-align: right;
     white-space: nowrap;
+}
+.solution-header{
+    width: 71vw;
+}
+.sol-button-mob{
+    display: none;
+}
+.sol-button{
+    display: block;
 }
