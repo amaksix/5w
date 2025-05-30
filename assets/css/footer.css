@@ -65,6 +65,7 @@ footer{
 }
 .footer-image{
     width: 97.3vw;
+    height: 50%;
     margin-top: -1.3vw;
 }
 
@@ -139,7 +140,7 @@ footer{
     }
     .footer-btn {
         font-size: 3.5vw;
-        height: 5vw;
+        height: 5.5vw;
         overflow:hidden;
         margin-bottom: 5.8vw;
         text-decoration: underline;
@@ -147,6 +148,7 @@ footer{
     }
     .footer-text{
         font-size: 3.5vw;
+        margin-bottom: 5.8vw;
     }
     .footer-info-container{
         display: grid;
@@ -159,4 +161,7 @@ footer{
         margin-left: auto;
         width: 11.4vw;
     }
+      .footer-btn:hover .label-up {
+    top:0%;
+  }
   }

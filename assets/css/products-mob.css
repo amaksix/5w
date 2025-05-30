@@ -14,6 +14,12 @@
 .products-bottom-section-container{
     display: block;
 }
+.product-image-mob{
+    display: none;
+}
+.product-image{
+    display:block;
+}
 @media only screen and (hover: none) and (pointer: coarse), 
 (max-width: 480px) {
     .products-description-left-container{
@@ -31,8 +37,7 @@
 }
 .learn-more-container{
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40vw;
     width:12.9vw;
     height:12.9vw;
     margin-top: 7.6vw;
@@ -74,9 +79,13 @@
     height: 70vw;
     margin-bottom: 7.6vw;
 }
-.product-image{
+.product-image-mob{
     width: 95vw;
-    margin-top: -15vw;
+    margin-top: 0;
+    display: block;
+}
+.product-image{
+    display: none;
 }
 .main{
   padding-left: 0vw;
@@ -197,7 +206,7 @@
     width: 2.5vw;
     height: 2.5vw;
     content:url("../images/Angled_Arrow_Black.svg");
-    margin-top: -0.5vw;
+    margin-top: -1vw;
 }
 .products-bottom-section-left-container-button:hover > .angled-arrow
 {
