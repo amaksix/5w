@@ -181,6 +181,11 @@
     text-align: center;
     color: #535458;
 }
+.products-bottom-section-left-container-button-container{
+    top:68vw;
+    position: absolute;
+    width: 91.8vw;
+}
 .products-bottom-section-left-container-button{
         margin-top: 3.4vw;
     background-color: #779FEE;
@@ -197,9 +202,9 @@
     padding-bottom: 3.5vw;
     line-height: 1vw;
     color:#0F0F10;
-    position: absolute;
-    left: 26vw;
-    top:68vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 .products-bottom-section-left-container-button > .angled-arrow
 {

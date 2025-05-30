@@ -213,11 +213,13 @@
             <img src="../assets/images/Aurora_Mob.svg" class="products-bottom-section-image">
             <p class="products-bottom-section-left-container-content-header">{{ site.data.translations[page.lang].products-bottom-section-left-container-content-header }}</p>
             <p class="regular-text products-bottom-section-right-text">{{ site.data.translations[page.lang].products-bottom-section-right-text }}</p>
-            {% if page.lang == "lv" %}
-            <button onclick="location.href='/lv/contact'" class="products-bottom-section-left-container-button" ><p class="products-bottom-section-left-container-button-text">{{ site.data.translations[page.lang].products-bottom-section-left-container-button-text }}</p><img class="angled-arrow" ></button>
-            {% else %}
-            <button onclick="location.href='/en/contact'" class="products-bottom-section-left-container-button" ><p class="products-bottom-section-left-container-button-text">{{ site.data.translations[page.lang].products-bottom-section-left-container-button-text }}</p><img class="angled-arrow" ></button>
-            {% endif %}
+            <div class="products-bottom-section-left-container-button-container">
+                {% if page.lang == "lv" %}
+                <button onclick="location.href='/lv/contact'" class="products-bottom-section-left-container-button" ><p class="products-bottom-section-left-container-button-text">{{ site.data.translations[page.lang].products-bottom-section-left-container-button-text }}</p><img class="angled-arrow" ></button>
+                {% else %}
+                <button onclick="location.href='/en/contact'" class="products-bottom-section-left-container-button" ><p class="products-bottom-section-left-container-button-text">{{ site.data.translations[page.lang].products-bottom-section-left-container-button-text }}</p><img class="angled-arrow" ></button>
+                {% endif %}
+            </div>
         </div>
       
     </div>
