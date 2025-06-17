@@ -120,21 +120,38 @@
   })();
 </script>
 <script>
-    document.getElementById("sendMessage").addEventListener("click", function(event) {
-    
-      emailjs.send("service_8kxdq0m", "template_zndf2bm", {
-          name: document.getElementById("name").value,
-          email: document.getElementById("email").value,
-          message: document.getElementById("message").value
-      }).then(
+document.getElementById("sendMessage").addEventListener("click", function(event) {
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Validate inputs
+    if (!name || !email || !message) {
+        alert("Name, email, and message must not be empty.");
+        return;
+    }
+
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address.");
+        return;
+    }
+
+    // Send email if validation passed
+    emailjs.send("service_8kxdq0m", "template_zndf2bm", {
+        name: name,
+        email: email,
+        message: message
+    }).then(
         function(response) {
             document.getElementById("popupSucces").style.display = "flex";
         },
         function(error) {
             document.getElementById("popupError").style.display = "flex";
-          console.error("Error:", error);
+            console.error("Error:", error);
         }
-      );
-    });
+    );
+});
     </script>
 </html>
