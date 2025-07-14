@@ -468,5 +468,5 @@ html, body {
     display: none;
 }
 .sol-button{
-    display: block;
+    display: grid;
 }
