@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const  lastContainer = document.querySelector(".forth-block-content-container-last");
     const headers02 = document.querySelectorAll(".forth-block-content-header");
     const body =  document.querySelector(".body");
+    const bodySecond =  document.querySelector(".body-second");
     function handleScroll() {
         const blockTop = block.getBoundingClientRect().top;
         const windowHeight = window.innerHeight/3;
@@ -39,7 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
              headers02.forEach((header02) => {
                 header02.classList.add("forth-block-content-header-changed");
              });
-            body.classList.add("body-changed");     
+            body.classList.add("body-changed");
+            bodySecond.classList.add("body-changed");     
         } else {
             lastContainer.classList.remove("forth-block-content-container-last-changed");
             block.classList.remove("aboutus-fifth-block-container-changed");
@@ -62,7 +64,8 @@ document.addEventListener("DOMContentLoaded", function () {
              headers02.forEach((header02) => {
                 header02.classList.remove("forth-block-content-header-changed");
              });
-            body.classList.remove("body-changed");     
+            body.classList.remove("body-changed");    
+            bodySecond.classList.remove("body-changed");  
         }
     }
 

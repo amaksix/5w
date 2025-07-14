@@ -76,13 +76,13 @@
 (max-width: 480px) {
       .second-loader-image {
     background-image: url("../images/Loader.png");
-    width:63.6vw;
-    height: 63.6vw;
+    width:55vw;
+    height: 55vw;
 
 }
     .loading-logo{
    
-    width: 23.9vw;
+    width: 20vw;
     display: block; 
     position: absolute;
 }

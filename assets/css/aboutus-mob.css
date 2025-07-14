@@ -170,15 +170,7 @@
     margin-bottom: 35vw;
     margin-top: 0vw;
 }
-.forth-block-content-container {
-    display: grid;
-    grid-template-columns: auto 27.5vw;
-    gap: 12vw;
-    height: 9.4vw;
-    border-top: 0.13vw solid #E1E2E5;
-    align-items: center; /* Center child elements vertically */
-    transition: 0;
-}
+
 .aboutus-forth-block-image-container-mob{
     width:109%;
     height: 131vw;
@@ -201,10 +193,11 @@
 }
 .forth-block-content-container {
     display: block;
-    height: 37vw;
+    padding-bottom: 7.6vw;
     border-top: 0.25vw solid #E1E2E5;
     align-items: center; /* Center child elements vertically */
     transition: 0;
+    height: max-content;
 }
 .forth-block-content-header{
     font-size: 4.5vw;
